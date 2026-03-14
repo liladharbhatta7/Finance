@@ -33,8 +33,10 @@ class VideoEditor:
         inputs = []
         filter_complex = []
 
+        # Narration
         inputs.extend(["-i", audio_path])
 
+        # Background Music
         bgm_path = bgm_selector.get_bgm_for_category(category)
         has_bgm = False
         if bgm_path:
@@ -44,7 +46,7 @@ class VideoEditor:
         current_input_idx = 2 if has_bgm else 1
         scene_output_labels = []
 
-        # image scenes only
+        # Build scenes
         for scene in timeline_scenes:
             idx = scene["index"]
             image_path = scene["image_path"]
@@ -58,13 +60,15 @@ class VideoEditor:
 
             img_idx = current_input_idx
             current_input_idx += 1
+
             frames = max(1, int(duration * self.fps))
 
             x_expr = "iw/2-(iw/zoom/2)" if idx % 2 == 0 else "iw/2-(iw/zoom/2)-40"
 
+            # Optimized scaling (no 4K processing)
             filter_complex.append(
                 f"[{img_idx}:v]"
-                f"scale=2160:-1,"
+                f"scale=1080:-1,"
                 f"zoompan=z='min(zoom+0.0016,1.45)':d={frames}:"
                 f"x='{x_expr}':y='ih/2-(ih/zoom/2)':s=1080x1920,"
                 f"setsar=1,fps={self.fps}"
@@ -73,13 +77,14 @@ class VideoEditor:
 
             filter_complex.append(
                 f"[v{idx}_bg]"
-                f"drawbox=x=80:y=120:w='min(420,(t/0.35)*420)':h=12:color=yellow@0.85:t=fill:enable='lt(t,0.45)'"
+                f"drawbox=x=80:y=120:w='min(420,(t/0.35)*420)':h=12:"
+                f"color=yellow@0.85:t=fill:enable='lt(t,0.45)'"
                 f"[v{idx}_out]"
             )
 
             scene_output_labels.append(f"[v{idx}_out]")
 
-        # xfade scenes
+        # Crossfade transitions
         if len(scene_output_labels) == 1:
             final_video_label = scene_output_labels[0]
         else:
@@ -97,12 +102,17 @@ class VideoEditor:
                     f"{xfade_out}"
                 )
 
-                current_total = current_total + float(timeline_scenes[i]["duration"]) - self.transition_duration
+                current_total = (
+                    current_total
+                    + float(timeline_scenes[i]["duration"])
+                    - self.transition_duration
+                )
+
                 prev_label = xfade_out
 
             final_video_label = prev_label
 
-        # burn one ASS file on final video
+        # Burn ASS subtitles
         ass_path_ff = self._ffmpeg_path(ass_path)
         fonts_dir_ff = self._ffmpeg_path(text_renderer.font_dir)
 
@@ -111,25 +121,34 @@ class VideoEditor:
             f"ass='{ass_path_ff}':fontsdir='{fonts_dir_ff}':shaping=complex"
             f"[v_final]"
         )
+
         final_video_label = "[v_final]"
 
-        # audio
+        # Build audio
         sfx_events = sfx_selector.build_events(timeline_data, category=category)
         sfx_input_meta = []
 
         for event in sfx_events:
             sfx_path = event["path"]
+
             if sfx_path and os.path.exists(sfx_path):
                 inputs.extend(["-i", sfx_path])
-                sfx_input_meta.append({
-                    "input_idx": current_input_idx,
-                    "time": float(event["time"]),
-                    "volume": float(event["volume"])
-                })
+
+                sfx_input_meta.append(
+                    {
+                        "input_idx": current_input_idx,
+                        "time": float(event["time"]),
+                        "volume": float(event["volume"]),
+                    }
+                )
+
                 current_input_idx += 1
 
         audio_labels = []
-        filter_complex.append("[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[a_narr]")
+
+        filter_complex.append(
+            "[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[a_narr]"
+        )
         audio_labels.append("[a_narr]")
 
         if has_bgm:
@@ -140,6 +159,7 @@ class VideoEditor:
             audio_labels.append("[a_bgm]")
 
         for i, meta in enumerate(sfx_input_meta):
+
             delay_ms = int(meta["time"] * 1000)
             inp = meta["input_idx"]
             volume = meta["volume"]
@@ -150,31 +170,46 @@ class VideoEditor:
                 f"volume={volume},adelay={delay_ms}|{delay_ms}"
                 f"[a_sfx_{i}]"
             )
+
             audio_labels.append(f"[a_sfx_{i}]")
 
         if len(audio_labels) == 1:
             final_audio_label = audio_labels[0]
         else:
             mix_inputs = "".join(audio_labels)
+
             filter_complex.append(
-                f"{mix_inputs}amix=inputs={len(audio_labels)}:duration=first:dropout_transition=2[a_final]"
+                f"{mix_inputs}amix=inputs={len(audio_labels)}:"
+                f"duration=first:dropout_transition=2[a_final]"
             )
+
             final_audio_label = "[a_final]"
 
+        # FFmpeg command (optimized)
         cmd = (
-            ["ffmpeg", "-y"]
+            ["ffmpeg", "-y", "-threads", "2"]
             + inputs
             + [
-                "-filter_complex", ";".join(filter_complex),
-                "-map", final_video_label,
-                "-map", final_audio_label,
-                "-c:v", "libx264",
-                "-preset", "medium",
-                "-crf", "20",
-                "-pix_fmt", "yuv420p",
-                "-r", str(self.fps),
-                "-c:a", "aac",
-                "-b:a", "192k",
+                "-filter_complex",
+                ";".join(filter_complex),
+                "-map",
+                final_video_label,
+                "-map",
+                final_audio_label,
+                "-c:v",
+                "libx264",
+                "-preset",
+                "veryfast",
+                "-crf",
+                "20",
+                "-pix_fmt",
+                "yuv420p",
+                "-r",
+                str(self.fps),
+                "-c:a",
+                "aac",
+                "-b:a",
+                "192k",
                 "-shortest",
                 output_path,
             ]
@@ -183,11 +218,12 @@ class VideoEditor:
         logger.info("Running FFmpeg render with ASS typography...")
 
         try:
-            subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(cmd, check=True)
             logger.info(f"Video assembled at {output_path}")
             return True
+
         except subprocess.CalledProcessError as e:
-            logger.error(f"FFmpeg failed: {e.stderr.decode(errors='ignore')}")
+            logger.error(f"FFmpeg failed: {str(e)}")
             return False
 
     def _ffmpeg_path(self, path):
