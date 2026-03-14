@@ -1,0 +1,386 @@
+[
+    {
+        "word": "बजारमा",
+        "start": 0.0,
+        "end": 0.48,
+        "duration": 0.48
+    },
+    {
+        "word": "हल्ला",
+        "start": 0.56,
+        "end": 0.8,
+        "duration": 0.24
+    },
+    {
+        "word": "छ,",
+        "start": 0.88,
+        "end": 1.36,
+        "duration": 0.48
+    },
+    {
+        "word": "कसले",
+        "start": 1.44,
+        "end": 1.76,
+        "duration": 0.32
+    },
+    {
+        "word": "कति",
+        "start": 1.84,
+        "end": 2.08,
+        "duration": 0.24
+    },
+    {
+        "word": "छिटो",
+        "start": 2.12,
+        "end": 2.4,
+        "duration": 0.28
+    },
+    {
+        "word": "पैसा",
+        "start": 2.52,
+        "end": 2.88,
+        "duration": 0.36
+    },
+    {
+        "word": "बनायो।",
+        "start": 2.933,
+        "end": 3.679,
+        "duration": 0.746
+    },
+    {
+        "word": "तर",
+        "start": 3.732,
+        "end": 3.838,
+        "duration": 0.106
+    },
+    {
+        "word": "म",
+        "start": 3.918,
+        "end": 3.998,
+        "duration": 0.08
+    },
+    {
+        "word": "सधैँ",
+        "start": 4.158,
+        "end": 4.558,
+        "duration": 0.4
+    },
+    {
+        "word": "'ब्लु",
+        "start": 4.718,
+        "end": 5.038,
+        "duration": 0.32
+    },
+    {
+        "word": "चिप'",
+        "start": 5.078,
+        "end": 5.318,
+        "duration": 0.24
+    },
+    {
+        "word": "स्टक",
+        "start": 5.338,
+        "end": 5.598,
+        "duration": 0.26
+    },
+    {
+        "word": "रोज्छु।",
+        "start": 5.638,
+        "end": 6.398,
+        "duration": 0.76
+    },
+    {
+        "word": "दशकौँदेखि",
+        "start": 6.438,
+        "end": 7.118,
+        "duration": 0.68
+    },
+    {
+        "word": "बलिया,",
+        "start": 7.198,
+        "end": 7.838,
+        "duration": 0.64
+    },
+    {
+        "word": "विश्वासिलो",
+        "start": 7.878,
+        "end": 8.558,
+        "duration": 0.68
+    },
+    {
+        "word": "कम्पनी।",
+        "start": 8.584,
+        "end": 9.276,
+        "duration": 0.692
+    },
+    {
+        "word": "रातारात",
+        "start": 9.316,
+        "end": 9.836,
+        "duration": 0.52
+    },
+    {
+        "word": "दोब्बर",
+        "start": 9.876,
+        "end": 10.235,
+        "duration": 0.359
+    },
+    {
+        "word": "हुँदैनन्,",
+        "start": 10.275,
+        "end": 10.875,
+        "duration": 0.6
+    },
+    {
+        "word": "तर",
+        "start": 10.928,
+        "end": 11.034,
+        "duration": 0.106
+    },
+    {
+        "word": "डुब्ने",
+        "start": 11.114,
+        "end": 11.554,
+        "duration": 0.44
+    },
+    {
+        "word": "सम्भावना",
+        "start": 11.594,
+        "end": 12.074,
+        "duration": 0.48
+    },
+    {
+        "word": "पनि",
+        "start": 12.114,
+        "end": 12.314,
+        "duration": 0.2
+    },
+    {
+        "word": "कमै",
+        "start": 12.447,
+        "end": 12.793,
+        "duration": 0.346
+    },
+    {
+        "word": "हुन्छ।",
+        "start": 12.833,
+        "end": 13.593,
+        "duration": 0.76
+    },
+    {
+        "word": "यो",
+        "start": 13.633,
+        "end": 13.753,
+        "duration": 0.12
+    },
+    {
+        "word": "सुरक्षित",
+        "start": 13.833,
+        "end": 14.312,
+        "duration": 0.479
+    },
+    {
+        "word": "बाटो",
+        "start": 14.352,
+        "end": 14.672,
+        "duration": 0.32
+    },
+    {
+        "word": "हो,",
+        "start": 14.692,
+        "end": 14.872,
+        "duration": 0.18
+    },
+    {
+        "word": "मलाई",
+        "start": 14.952,
+        "end": 15.192,
+        "duration": 0.24
+    },
+    {
+        "word": "थाहा",
+        "start": 15.232,
+        "end": 15.472,
+        "duration": 0.24
+    },
+    {
+        "word": "छ।",
+        "start": 15.532,
+        "end": 15.672,
+        "duration": 0.14
+    },
+    {
+        "word": "तर",
+        "start": 15.778,
+        "end": 15.99,
+        "duration": 0.212
+    },
+    {
+        "word": "कहिलेकाहीँ,",
+        "start": 16.07,
+        "end": 16.628,
+        "duration": 0.558
+    },
+    {
+        "word": "यो",
+        "start": 16.788,
+        "end": 17.028,
+        "duration": 0.24
+    },
+    {
+        "word": "स्थिर",
+        "start": 17.068,
+        "end": 17.348,
+        "duration": 0.28
+    },
+    {
+        "word": "यात्रामा,",
+        "start": 17.428,
+        "end": 17.988,
+        "duration": 0.56
+    },
+    {
+        "word": "म",
+        "start": 18.148,
+        "end": 18.308,
+        "duration": 0.16
+    },
+    {
+        "word": "भीडको",
+        "start": 18.428,
+        "end": 18.868,
+        "duration": 0.44
+    },
+    {
+        "word": "बीचमा",
+        "start": 18.948,
+        "end": 19.268,
+        "duration": 0.32
+    },
+    {
+        "word": "पनि",
+        "start": 19.348,
+        "end": 19.588,
+        "duration": 0.24
+    },
+    {
+        "word": "एक्लो",
+        "start": 19.748,
+        "end": 20.228,
+        "duration": 0.48
+    },
+    {
+        "word": "महसुस",
+        "start": 20.308,
+        "end": 20.628,
+        "duration": 0.32
+    },
+    {
+        "word": "गर्छु।",
+        "start": 20.681,
+        "end": 21.347,
+        "duration": 0.666
+    },
+    {
+        "word": "सबैजना",
+        "start": 21.427,
+        "end": 21.907,
+        "duration": 0.48
+    },
+    {
+        "word": "छिटो",
+        "start": 21.987,
+        "end": 22.307,
+        "duration": 0.32
+    },
+    {
+        "word": "दौडिरहेका",
+        "start": 22.347,
+        "end": 22.867,
+        "duration": 0.52
+    },
+    {
+        "word": "छन्,",
+        "start": 22.947,
+        "end": 23.345,
+        "duration": 0.398
+    },
+    {
+        "word": "म",
+        "start": 23.385,
+        "end": 23.425,
+        "duration": 0.04
+    },
+    {
+        "word": "भने",
+        "start": 23.545,
+        "end": 23.825,
+        "duration": 0.28
+    },
+    {
+        "word": "बिस्तारै",
+        "start": 23.905,
+        "end": 24.465,
+        "duration": 0.56
+    },
+    {
+        "word": "तर",
+        "start": 24.571,
+        "end": 24.783,
+        "duration": 0.212
+    },
+    {
+        "word": "ढुक्कले",
+        "start": 24.903,
+        "end": 25.423,
+        "duration": 0.52
+    },
+    {
+        "word": "हिँडिरहेको",
+        "start": 25.463,
+        "end": 25.901,
+        "duration": 0.438
+    },
+    {
+        "word": "छु।",
+        "start": 25.941,
+        "end": 26.461,
+        "duration": 0.52
+    },
+    {
+        "word": "यो",
+        "start": 26.501,
+        "end": 26.621,
+        "duration": 0.12
+    },
+    {
+        "word": "एकान्त",
+        "start": 26.701,
+        "end": 27.101,
+        "duration": 0.4
+    },
+    {
+        "word": "सुरक्षामा",
+        "start": 27.181,
+        "end": 27.74,
+        "duration": 0.559
+    },
+    {
+        "word": "कस्तो",
+        "start": 27.94,
+        "end": 28.38,
+        "duration": 0.44
+    },
+    {
+        "word": "अनुभूति",
+        "start": 28.406,
+        "end": 28.738,
+        "duration": 0.332
+    },
+    {
+        "word": "हुन्छ?",
+        "start": 28.758,
+        "end": 29.098,
+        "duration": 0.34
+    }
+]

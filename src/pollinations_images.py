@@ -9,8 +9,12 @@ from src.logger import logger
 
 class ImageGenerator:
     BASE_STYLE = (
-        "cinematic lighting, photorealistic, ultra detailed, "
-        "natural skin texture, realistic faces, Nepal middle class context"
+       "bright studio lighting, high contrast, ultra sharp focus, "
+    "clean minimal composition, modern finance theme, "
+    "product photography style, crisp details, 8k clarity, "
+    "blue and green color palette with subtle gold accents, "
+    "no people, no faces, no hands, no body parts, "
+    "no text, no watermark, no logo"
     )
 
     def __init__(self):

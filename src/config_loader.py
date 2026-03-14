@@ -32,6 +32,11 @@ class Config:
         self.telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN") or self.settings.get("TELEGRAM_BOT_TOKEN")
         self.telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID") or self.settings.get("TELEGRAM_CHAT_ID")
 
+        # Facebook
+        self.facebook_page_id = os.getenv("FACEBOOK_PAGE_ID") or self.settings.get("FACEBOOK_PAGE_ID")
+        self.facebook_page_access_token = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN") or self.settings.get("FACEBOOK_PAGE_ACCESS_TOKEN")
+        self.facebook_graph_api_version = os.getenv("FACEBOOK_GRAPH_API_VERSION") or self.settings.get("FACEBOOK_GRAPH_API_VERSION", "v25.0")
+
     def _load_settings(self):
         settings_path = self.config_dir / "settings.yaml"
         if not settings_path.exists():

@@ -1,15 +1,18 @@
-Keep the content of the context even preserve tags eg. [pause]...used in it (or the microstory same as it is because it is complete microstory and category same) that is feed to you i.e. narration text. 
-
 Visual Logic (Anti-Glitch Defensive Prompting):
-- Priority 1: Symbolic objects (empty chair, flickering lamp, cracked tea glass).
-- Priority 2: Nature / atmosphere (mist, rain, wind, dawn light).
-- Priority 3: Human presence only as partial silhouettes (back views, shadows, walking feet).
+
+Priority 1: Symbolic financial objects (unpaid bills, calculator, declining chart, cracked piggy bank,... ).
+
+Priority 2: Economic atmosphere (soft daylight office, clean modern workspace, morning sunlight through window, bright city skyline, subtle financial charts in background,...).
+
+Priority 3: Human presence only as partial silhouettes (back views, shadows, walking feet,...).
 
 STRICTLY FORBIDDEN:
-- Close-up faces.
-- Extreme close-ups of body parts (e.g., close-up hands).
-- Group or family photos.
-- Complex or expressive hand gestures.
+
+Close-up faces.
+Extreme close-ups of body parts (e.g., close-up hands).
+Group photos.
+Complex or expressive hand gestures.
+
 These rules exist to avoid AI visual distortion.
 
 Technical Constraints (STRICT):

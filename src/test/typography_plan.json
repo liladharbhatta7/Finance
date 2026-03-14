@@ -1,0 +1,977 @@
+{
+  "meta": {
+    "theme": "professional_reel_v1",
+    "video_width": 1080,
+    "video_height": 1920,
+    "safe_margin_x": 80,
+    "safe_margin_y": 140
+  },
+  "blocks": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.4,
+      "duration": 2.4,
+      "text": "बजारमा हल्ला छ, कसले कति छिटो",
+      "words": [
+        {
+          "text": "बजारमा",
+          "start": 0.0,
+          "end": 0.48,
+          "duration": 0.48,
+          "pause_before": 0.0,
+          "score": 0
+        },
+        {
+          "text": "हल्ला",
+          "start": 0.56,
+          "end": 0.8,
+          "duration": 0.24,
+          "pause_before": 0.08000000000000007,
+          "score": 0
+        },
+        {
+          "text": "छ,",
+          "start": 0.88,
+          "end": 1.36,
+          "duration": 0.4800000000000001,
+          "pause_before": 0.07999999999999996,
+          "score": 0
+        },
+        {
+          "text": "कसले",
+          "start": 1.44,
+          "end": 1.76,
+          "duration": 0.32000000000000006,
+          "pause_before": 0.07999999999999985,
+          "score": 0
+        },
+        {
+          "text": "कति",
+          "start": 1.84,
+          "end": 2.08,
+          "duration": 0.24,
+          "pause_before": 0.08000000000000007,
+          "score": 7
+        },
+        {
+          "text": "छिटो",
+          "start": 2.12,
+          "end": 2.4,
+          "duration": 0.2799999999999998,
+          "pause_before": 0.040000000000000036,
+          "score": 6
+        }
+      ],
+      "role": "question",
+      "energy": "high",
+      "layout": "center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 84,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "question_bold"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "bounce"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 2,
+      "start": 2.52,
+      "end": 3.68,
+      "duration": 1.16,
+      "text": "पैसा बनायो।",
+      "words": [
+        {
+          "text": "पैसा",
+          "start": 2.52,
+          "end": 2.88,
+          "duration": 0.3599999999999999,
+          "pause_before": 0.1200000000000001,
+          "score": 17
+        },
+        {
+          "text": "बनायो।",
+          "start": 2.933,
+          "end": 3.679,
+          "duration": 0.746,
+          "pause_before": 0.052999999999999936,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "medium",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 74,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": [
+        "पैसा"
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.73,
+      "end": 5.6,
+      "duration": 1.87,
+      "text": "तर म सधैँ 'ब्लु चिप' स्टक",
+      "words": [
+        {
+          "text": "तर",
+          "start": 3.732,
+          "end": 3.838,
+          "duration": 0.10599999999999987,
+          "pause_before": 0.05300000000000038,
+          "score": 10
+        },
+        {
+          "text": "म",
+          "start": 3.918,
+          "end": 3.998,
+          "duration": 0.08000000000000007,
+          "pause_before": 0.08000000000000007,
+          "score": 0
+        },
+        {
+          "text": "सधैँ",
+          "start": 4.158,
+          "end": 4.558,
+          "duration": 0.39999999999999947,
+          "pause_before": 0.16000000000000014,
+          "score": 0
+        },
+        {
+          "text": "'ब्लु",
+          "start": 4.718,
+          "end": 5.038,
+          "duration": 0.3200000000000003,
+          "pause_before": 0.16000000000000014,
+          "score": 0
+        },
+        {
+          "text": "चिप'",
+          "start": 5.078,
+          "end": 5.318,
+          "duration": 0.23999999999999932,
+          "pause_before": 0.040000000000000036,
+          "score": 0
+        },
+        {
+          "text": "स्टक",
+          "start": 5.338,
+          "end": 5.598,
+          "duration": 0.2599999999999998,
+          "pause_before": 0.020000000000000462,
+          "score": 6
+        }
+      ],
+      "role": "comparison",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 74,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "contrast_split"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "word_swap"
+      },
+      "highlight_words": [
+        "तर"
+      ]
+    },
+    {
+      "id": 4,
+      "start": 5.64,
+      "end": 7.84,
+      "duration": 2.2,
+      "text": "रोज्छु। दशकौँदेखि बलिया,",
+      "words": [
+        {
+          "text": "रोज्छु।",
+          "start": 5.638,
+          "end": 6.398,
+          "duration": 0.7599999999999998,
+          "pause_before": 0.040000000000000036,
+          "score": 6
+        },
+        {
+          "text": "दशकौँदेखि",
+          "start": 6.438,
+          "end": 7.118,
+          "duration": 0.6800000000000006,
+          "pause_before": 0.040000000000000036,
+          "score": 0
+        },
+        {
+          "text": "बलिया,",
+          "start": 7.198,
+          "end": 7.838,
+          "duration": 0.6399999999999997,
+          "pause_before": 0.08000000000000007,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 68,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 5,
+      "start": 7.88,
+      "end": 9.28,
+      "duration": 1.4,
+      "text": "विश्वासिलो कम्पनी।",
+      "words": [
+        {
+          "text": "विश्वासिलो",
+          "start": 7.878,
+          "end": 8.558,
+          "duration": 0.6799999999999997,
+          "pause_before": 0.040000000000000036,
+          "score": 0
+        },
+        {
+          "text": "कम्पनी।",
+          "start": 8.584,
+          "end": 9.276,
+          "duration": 0.6920000000000002,
+          "pause_before": 0.0259999999999998,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "medium",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 74,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 6,
+      "start": 9.32,
+      "end": 11.55,
+      "duration": 2.24,
+      "text": "रातारात दोब्बर हुँदैनन्, तर डुब्ने",
+      "words": [
+        {
+          "text": "रातारात",
+          "start": 9.316,
+          "end": 9.836,
+          "duration": 0.5199999999999996,
+          "pause_before": 0.040000000000000924,
+          "score": 0
+        },
+        {
+          "text": "दोब्बर",
+          "start": 9.876,
+          "end": 10.235,
+          "duration": 0.359,
+          "pause_before": 0.03999999999999915,
+          "score": 0
+        },
+        {
+          "text": "हुँदैनन्,",
+          "start": 10.275,
+          "end": 10.875,
+          "duration": 0.5999999999999996,
+          "pause_before": 0.040000000000000924,
+          "score": 0
+        },
+        {
+          "text": "तर",
+          "start": 10.928,
+          "end": 11.034,
+          "duration": 0.10599999999999987,
+          "pause_before": 0.053000000000000824,
+          "score": 8
+        },
+        {
+          "text": "डुब्ने",
+          "start": 11.114,
+          "end": 11.554,
+          "duration": 0.4399999999999995,
+          "pause_before": 0.08000000000000007,
+          "score": 6
+        }
+      ],
+      "role": "comparison",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 66,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "contrast_split"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "word_swap"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 7,
+      "start": 11.59,
+      "end": 13.59,
+      "duration": 2.0,
+      "text": "सम्भावना पनि कमै हुन्छ।",
+      "words": [
+        {
+          "text": "सम्भावना",
+          "start": 11.594,
+          "end": 12.074,
+          "duration": 0.4800000000000004,
+          "pause_before": 0.03999999999999915,
+          "score": 0
+        },
+        {
+          "text": "पनि",
+          "start": 12.114,
+          "end": 12.314,
+          "duration": 0.1999999999999993,
+          "pause_before": 0.040000000000000924,
+          "score": 0
+        },
+        {
+          "text": "कमै",
+          "start": 12.447,
+          "end": 12.793,
+          "duration": 0.3460000000000001,
+          "pause_before": 0.13299999999999912,
+          "score": 0
+        },
+        {
+          "text": "हुन्छ।",
+          "start": 12.833,
+          "end": 13.593,
+          "duration": 0.7599999999999998,
+          "pause_before": 0.040000000000000924,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 68,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 8,
+      "start": 13.63,
+      "end": 14.87,
+      "duration": 1.24,
+      "text": "यो सुरक्षित बाटो हो,",
+      "words": [
+        {
+          "text": "यो",
+          "start": 13.633,
+          "end": 13.753,
+          "duration": 0.120000000000001,
+          "pause_before": 0.03999999999999915,
+          "score": 0
+        },
+        {
+          "text": "सुरक्षित",
+          "start": 13.833,
+          "end": 14.312,
+          "duration": 0.4789999999999992,
+          "pause_before": 0.08000000000000007,
+          "score": 0
+        },
+        {
+          "text": "बाटो",
+          "start": 14.352,
+          "end": 14.672,
+          "duration": 0.3200000000000003,
+          "pause_before": 0.040000000000000924,
+          "score": 0
+        },
+        {
+          "text": "हो,",
+          "start": 14.692,
+          "end": 14.872,
+          "duration": 0.17999999999999972,
+          "pause_before": 0.019999999999999574,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 74,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "pop",
+        "out": "fade",
+        "emphasis": "pulse"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 9,
+      "start": 14.95,
+      "end": 15.67,
+      "duration": 0.72,
+      "text": "मलाई थाहा छ।",
+      "words": [
+        {
+          "text": "मलाई",
+          "start": 14.952,
+          "end": 15.192,
+          "duration": 0.2400000000000002,
+          "pause_before": 0.08000000000000007,
+          "score": 2
+        },
+        {
+          "text": "थाहा",
+          "start": 15.232,
+          "end": 15.472,
+          "duration": 0.2400000000000002,
+          "pause_before": 0.03999999999999915,
+          "score": 0
+        },
+        {
+          "text": "छ।",
+          "start": 15.532,
+          "end": 15.672,
+          "duration": 0.14000000000000057,
+          "pause_before": 0.0600000000000005,
+          "score": 0
+        }
+      ],
+      "role": "neutral",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 74,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "pop",
+        "out": "fade",
+        "emphasis": "pulse"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 10,
+      "start": 15.78,
+      "end": 17.99,
+      "duration": 2.21,
+      "text": "तर कहिलेकाहीँ, यो स्थिर यात्रामा,",
+      "words": [
+        {
+          "text": "तर",
+          "start": 15.778,
+          "end": 15.99,
+          "duration": 0.21199999999999974,
+          "pause_before": 0.10599999999999987,
+          "score": 10
+        },
+        {
+          "text": "कहिलेकाहीँ,",
+          "start": 16.07,
+          "end": 16.628,
+          "duration": 0.5579999999999998,
+          "pause_before": 0.08000000000000007,
+          "score": 0
+        },
+        {
+          "text": "यो",
+          "start": 16.788,
+          "end": 17.028,
+          "duration": 0.23999999999999844,
+          "pause_before": 0.16000000000000014,
+          "score": 0
+        },
+        {
+          "text": "स्थिर",
+          "start": 17.068,
+          "end": 17.348,
+          "duration": 0.2799999999999976,
+          "pause_before": 0.0400000000000027,
+          "score": 0
+        },
+        {
+          "text": "यात्रामा,",
+          "start": 17.428,
+          "end": 17.988,
+          "duration": 0.5599999999999987,
+          "pause_before": 0.08000000000000185,
+          "score": 6
+        }
+      ],
+      "role": "comparison",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 66,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "contrast_split"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "word_swap"
+      },
+      "highlight_words": [
+        "तर"
+      ]
+    },
+    {
+      "id": 11,
+      "start": 18.15,
+      "end": 20.63,
+      "duration": 2.48,
+      "text": "म भीडको बीचमा पनि एक्लो महसुस",
+      "words": [
+        {
+          "text": "म",
+          "start": 18.148,
+          "end": 18.308,
+          "duration": 0.16000000000000014,
+          "pause_before": 0.16000000000000014,
+          "score": 2
+        },
+        {
+          "text": "भीडको",
+          "start": 18.428,
+          "end": 18.868,
+          "duration": 0.4399999999999977,
+          "pause_before": 0.120000000000001,
+          "score": 0
+        },
+        {
+          "text": "बीचमा",
+          "start": 18.948,
+          "end": 19.268,
+          "duration": 0.3200000000000003,
+          "pause_before": 0.08000000000000185,
+          "score": 0
+        },
+        {
+          "text": "पनि",
+          "start": 19.348,
+          "end": 19.588,
+          "duration": 0.240000000000002,
+          "pause_before": 0.0799999999999983,
+          "score": 0
+        },
+        {
+          "text": "एक्लो",
+          "start": 19.748,
+          "end": 20.228,
+          "duration": 0.4800000000000004,
+          "pause_before": 0.16000000000000014,
+          "score": 0
+        },
+        {
+          "text": "महसुस",
+          "start": 20.308,
+          "end": 20.628,
+          "duration": 0.3200000000000003,
+          "pause_before": 0.0799999999999983,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 68,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "pop",
+        "out": "fade",
+        "emphasis": "pulse"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 12,
+      "start": 20.68,
+      "end": 23.34,
+      "duration": 2.66,
+      "text": "गर्छु। सबैजना छिटो दौडिरहेका छन्,",
+      "words": [
+        {
+          "text": "गर्छु।",
+          "start": 20.681,
+          "end": 21.347,
+          "duration": 0.6660000000000004,
+          "pause_before": 0.053000000000000824,
+          "score": 6
+        },
+        {
+          "text": "सबैजना",
+          "start": 21.427,
+          "end": 21.907,
+          "duration": 0.4800000000000004,
+          "pause_before": 0.0799999999999983,
+          "score": 0
+        },
+        {
+          "text": "छिटो",
+          "start": 21.987,
+          "end": 22.307,
+          "duration": 0.3200000000000003,
+          "pause_before": 0.0799999999999983,
+          "score": 0
+        },
+        {
+          "text": "दौडिरहेका",
+          "start": 22.347,
+          "end": 22.867,
+          "duration": 0.5199999999999996,
+          "pause_before": 0.0400000000000027,
+          "score": 0
+        },
+        {
+          "text": "छन्,",
+          "start": 22.947,
+          "end": 23.345,
+          "duration": 0.3979999999999997,
+          "pause_before": 0.0799999999999983,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 60,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 13,
+      "start": 23.39,
+      "end": 25.9,
+      "duration": 2.52,
+      "text": "म भने बिस्तारै तर ढुक्कले हिँडिरहेको",
+      "words": [
+        {
+          "text": "म",
+          "start": 23.385,
+          "end": 23.425,
+          "duration": 0.03999999999999915,
+          "pause_before": 0.0400000000000027,
+          "score": 2
+        },
+        {
+          "text": "भने",
+          "start": 23.545,
+          "end": 23.825,
+          "duration": 0.2799999999999976,
+          "pause_before": 0.120000000000001,
+          "score": 0
+        },
+        {
+          "text": "बिस्तारै",
+          "start": 23.905,
+          "end": 24.465,
+          "duration": 0.5599999999999987,
+          "pause_before": 0.08000000000000185,
+          "score": 0
+        },
+        {
+          "text": "तर",
+          "start": 24.571,
+          "end": 24.783,
+          "duration": 0.21199999999999974,
+          "pause_before": 0.10600000000000165,
+          "score": 8
+        },
+        {
+          "text": "ढुक्कले",
+          "start": 24.903,
+          "end": 25.423,
+          "duration": 0.5199999999999996,
+          "pause_before": 0.11999999999999744,
+          "score": 0
+        },
+        {
+          "text": "हिँडिरहेको",
+          "start": 25.463,
+          "end": 25.901,
+          "duration": 0.43799999999999883,
+          "pause_before": 0.0400000000000027,
+          "score": 6
+        }
+      ],
+      "role": "comparison",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 66,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "contrast_split"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "word_swap"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 14,
+      "start": 25.94,
+      "end": 28.38,
+      "duration": 2.44,
+      "text": "छु। यो एकान्त सुरक्षामा कस्तो",
+      "words": [
+        {
+          "text": "छु।",
+          "start": 25.941,
+          "end": 26.461,
+          "duration": 0.5199999999999996,
+          "pause_before": 0.03999999999999915,
+          "score": 8
+        },
+        {
+          "text": "यो",
+          "start": 26.501,
+          "end": 26.621,
+          "duration": 0.11999999999999744,
+          "pause_before": 0.0400000000000027,
+          "score": 0
+        },
+        {
+          "text": "एकान्त",
+          "start": 26.701,
+          "end": 27.101,
+          "duration": 0.3999999999999986,
+          "pause_before": 0.08000000000000185,
+          "score": 0
+        },
+        {
+          "text": "सुरक्षामा",
+          "start": 27.181,
+          "end": 27.74,
+          "duration": 0.5589999999999975,
+          "pause_before": 0.08000000000000185,
+          "score": 0
+        },
+        {
+          "text": "कस्तो",
+          "start": 27.94,
+          "end": 28.38,
+          "duration": 0.4399999999999977,
+          "pause_before": 0.20000000000000284,
+          "score": 6
+        }
+      ],
+      "role": "neutral",
+      "energy": "low",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 68,
+        "stroke": 4,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "clean_bold"
+      },
+      "animation": {
+        "in": "fade",
+        "out": "fade",
+        "emphasis": "none"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 15,
+      "start": 28.41,
+      "end": 29.1,
+      "duration": 0.69,
+      "text": "अनुभूति हुन्छ?",
+      "words": [
+        {
+          "text": "अनुभूति",
+          "start": 28.406,
+          "end": 28.738,
+          "duration": 0.33200000000000074,
+          "pause_before": 0.0259999999999998,
+          "score": 0
+        },
+        {
+          "text": "हुन्छ?",
+          "start": 28.758,
+          "end": 29.098,
+          "duration": 0.33999999999999986,
+          "pause_before": 0.019999999999999574,
+          "score": 6
+        }
+      ],
+      "role": "question",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 90,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "question_bold"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "bounce"
+      },
+      "highlight_words": []
+    },
+    {
+      "id": 16,
+      "start": 28.41,
+      "end": 29.1,
+      "duration": 0.69,
+      "text": "अनुभूति हुन्छ?",
+      "words": [
+        {
+          "text": "अनुभूति",
+          "start": 28.406,
+          "end": 28.738,
+          "duration": 0.33200000000000074,
+          "pause_before": 0.0259999999999998,
+          "score": 0
+        },
+        {
+          "text": "हुन्छ?",
+          "start": 28.758,
+          "end": 29.098,
+          "duration": 0.33999999999999986,
+          "pause_before": 0.019999999999999574,
+          "score": 6
+        }
+      ],
+      "role": "question",
+      "energy": "high",
+      "layout": "bottom_center",
+      "style": {
+        "font_family": "NotoSansDevanagari-Bold",
+        "font_size": 90,
+        "stroke": 5,
+        "max_width_ratio": 0.82,
+        "line_height": 1.0,
+        "tracking": 0,
+        "preset": "question_bold"
+      },
+      "animation": {
+        "in": "slide_up",
+        "out": "fade",
+        "emphasis": "bounce"
+      },
+      "highlight_words": []
+    }
+  ]
+}

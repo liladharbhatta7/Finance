@@ -583,3 +583,1168 @@ Please retry in 24.243472534s. [links {
   "timestamp": "2026-01-20T20:19:36.659200"
 }
 2026-01-20 20:19:36,662 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\YoutubeStory\report.json
+2026-03-02 21:13:49,875 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 21:18:58,698 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 21:34:03,765 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 21:34:12,770 - daily_runner - INFO - Starting Daily Run
+2026-03-02 21:34:12,791 - daily_runner - INFO - Starting pipeline for 2026-03-02_T037
+2026-03-02 21:34:12,792 - daily_runner - INFO - Generating story for topic: T037
+2026-03-02 21:34:25,211 - daily_runner - INFO - Story generated successfully.
+2026-03-02 21:34:25,211 - daily_runner - INFO - Generating voice for text length: 381
+2026-03-02 21:34:58,256 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_narration.mp3
+2026-03-02 21:34:58,258 - daily_runner - INFO - [WorkerAI] Generating image: A textbook open on a desk, showing pages overwhelmingly mark
+2026-03-02 21:35:26,818 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_scene_0.jpg
+2026-03-02 21:35:26,857 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a page filled with red corrections. A flickeri
+2026-03-02 21:35:59,574 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_scene_1.jpg
+2026-03-02 21:35:59,576 - daily_runner - INFO - [WorkerAI] Generating image: A stack of textbooks on a study desk, one open, revealing ma
+2026-03-02 21:36:32,410 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_scene_2.jpg
+2026-03-02 21:36:32,412 - daily_runner - INFO - [WorkerAI] Generating image: A single page of a textbook with prominent, almost accusator
+2026-03-02 21:37:18,773 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_scene_3.jpg
+2026-03-02 21:37:18,775 - daily_runner - INFO - [WorkerAI] Generating image: A wider shot of the study desk. An empty chair sits before t
+2026-03-02 21:37:43,476 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T037_scene_4.jpg
+2026-03-02 21:37:47,115 - daily_runner - INFO - Adjusted last scene duration by 14.71s to match narration. Last scene: 3.50s -> 18.21s | Scenes total was 17.00s, narration is 31.71s
+2026-03-02 21:37:47,116 - daily_runner - INFO - Selected BGM for category='Education_Pressure': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Education_Pressure.mp3
+2026-03-02 21:37:47,272 - daily_runner - INFO - Running FFmpeg...
+2026-03-02 21:38:13,710 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T037.mp4
+2026-03-02 21:38:13,733 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-02 21:38:13,852 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T037_thumb.png
+2026-03-02 21:38:14,332 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-02 21:38:14,334 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-02_T037",
+  "topic_id": "T037",
+  "title": "\u0930\u093e\u0924\u0948 \u092a\u093e\u0928\u093e, \u0905\u0927\u0941\u0930\u094b \u0936\u093e\u0928\u094d\u0924\u093f... \ud83d\ude1f\ud83d\udcda",
+  "publish_at": "2026-03-02T16:09:12.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-02T21:38:14.333394"
+}
+2026-03-02 21:38:14,347 - daily_runner - INFO - Starting pipeline for 2026-03-02_T038
+2026-03-02 21:38:14,351 - daily_runner - INFO - Generating story for topic: T038
+2026-03-02 21:38:26,901 - daily_runner - INFO - Story generated successfully.
+2026-03-02 21:38:26,902 - daily_runner - INFO - Generating voice for text length: 437
+2026-03-02 22:36:42,040 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 22:36:55,425 - daily_runner - INFO - Starting Daily Run
+2026-03-02 22:36:55,453 - daily_runner - INFO - Starting pipeline for 2026-03-02_T040
+2026-03-02 22:36:55,454 - daily_runner - INFO - Generating story for topic: T040
+2026-03-02 22:37:14,278 - daily_runner - INFO - Story generated successfully.
+2026-03-02 22:37:14,279 - daily_runner - INFO - Generating voice for text length: 368
+2026-03-02 22:37:47,344 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_narration.mp3
+2026-03-02 22:37:47,345 - daily_runner - INFO - [WorkerAI] Generating image: A partial silhouette of a person, seen from the back, standi
+2026-03-02 22:38:13,414 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_scene_0.jpg
+2026-03-02 22:38:13,417 - daily_runner - INFO - [WorkerAI] Generating image: Close-up on the cracked screen of a calculator, displaying a
+2026-03-02 22:38:36,278 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_scene_1.jpg
+2026-03-02 22:38:36,279 - daily_runner - INFO - [WorkerAI] Generating image: A fading view of a silhouette walking away from a bus stop, 
+2026-03-02 22:39:19,129 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_scene_2.jpg
+2026-03-02 22:39:19,131 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a calendar with a crossed-out day, next to a c
+2026-03-02 22:39:42,607 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_scene_3.jpg
+2026-03-02 22:39:42,646 - daily_runner - INFO - [WorkerAI] Generating image: A long shadow of a person, walking alone down an empty, dim 
+2026-03-02 22:40:07,719 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T040_scene_4.jpg
+2026-03-02 22:40:11,614 - daily_runner - INFO - Adjusted last scene duration by 9.31s to match narration. Last scene: 4.00s -> 13.31s | Scenes total was 16.50s, narration is 25.81s
+2026-03-02 22:40:11,616 - daily_runner - INFO - Selected BGM for category='Missed_Moment': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Missed_Moment.mp3
+2026-03-02 22:40:11,840 - daily_runner - INFO - Running FFmpeg...
+2026-03-02 22:40:31,614 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T040.mp4
+2026-03-02 22:40:31,635 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-02 22:40:31,783 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T040_thumb.png
+2026-03-02 22:40:32,986 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-02 22:40:32,986 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-02_T040",
+  "topic_id": "T040",
+  "title": "\u092e\u094c\u0915\u093e \u091b\u0941\u091f\u094d\u092f\u094b, \u092e\u0928 \u0930\u094b\u092f\u094b... \ud83d\udc94",
+  "publish_at": "2026-03-02T17:11:55.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-02T22:40:32.986867"
+}
+2026-03-02 22:40:32,999 - daily_runner - INFO - Starting pipeline for 2026-03-02_T041
+2026-03-02 22:40:33,001 - daily_runner - INFO - Generating story for topic: T041
+2026-03-02 22:40:50,808 - daily_runner - INFO - Story generated successfully.
+2026-03-02 22:40:50,809 - daily_runner - INFO - Generating voice for text length: 403
+2026-03-02 22:41:23,357 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T041_narration.mp3
+2026-03-02 22:41:23,359 - daily_runner - INFO - [WorkerAI] Generating image: Dimly lit dining area, focus on partial silhouette of a moth
+2026-03-02 22:41:45,803 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T041_scene_0.jpg
+2026-03-02 22:41:45,805 - daily_runner - INFO - [WorkerAI] Generating image: A single, visibly empty and slightly worn plate on a dining 
+2026-03-02 22:42:15,791 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T041_scene_1.jpg
+2026-03-02 22:42:15,793 - daily_runner - INFO - [WorkerAI] Generating image: Partial silhouettes of children eating quickly at a table. T
+2026-03-02 22:42:50,861 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T041_scene_2.jpg
+2026-03-02 22:42:50,863 - daily_runner - INFO - [WorkerAI] Generating image: An empty pot or serving dish on the dining table, scraped cl
+2026-03-02 22:43:16,292 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T041_scene_3.jpg
+2026-03-02 22:43:16,293 - daily_runner - INFO - [WorkerAI] Generating image: A partial silhouette of a mother, seen from the back, lookin
+2026-03-02 22:50:21,331 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 22:50:26,524 - daily_runner - INFO - Starting Daily Run
+2026-03-02 22:50:26,537 - daily_runner - INFO - Starting pipeline for 2026-03-02_T043
+2026-03-02 22:50:26,538 - daily_runner - INFO - Generating story for topic: T043
+2026-03-02 22:54:12,444 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 22:54:16,585 - daily_runner - INFO - Starting Daily Run
+2026-03-02 22:54:16,597 - daily_runner - INFO - Starting pipeline for 2026-03-02_T044
+2026-03-02 22:54:16,598 - daily_runner - INFO - Generating story for topic: T044
+2026-03-02 22:57:04,950 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 22:57:09,100 - daily_runner - INFO - Starting Daily Run
+2026-03-02 22:57:09,115 - daily_runner - INFO - Starting pipeline for 2026-03-02_T047
+2026-03-02 22:57:09,115 - daily_runner - INFO - Generating story for topic: T047
+2026-03-02 23:00:08,819 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 23:00:13,033 - daily_runner - INFO - Starting Daily Run
+2026-03-02 23:00:13,046 - daily_runner - INFO - Starting pipeline for 2026-03-02_T052
+2026-03-02 23:00:13,047 - daily_runner - INFO - Generating story for topic: T052
+2026-03-02 23:00:55,159 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 23:00:59,257 - daily_runner - INFO - Starting Daily Run
+2026-03-02 23:00:59,271 - daily_runner - INFO - Starting pipeline for 2026-03-02_T051
+2026-03-02 23:00:59,272 - daily_runner - INFO - Generating story for topic: T051
+2026-03-02 23:01:24,731 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-02 23:01:28,820 - daily_runner - INFO - Starting Daily Run
+2026-03-02 23:01:28,834 - daily_runner - INFO - Starting pipeline for 2026-03-02_T050
+2026-03-02 23:01:28,834 - daily_runner - INFO - Generating story for topic: T050
+2026-03-02 23:01:39,646 - daily_runner - INFO - Story generated successfully.
+2026-03-02 23:01:39,646 - daily_runner - INFO - Generating voice for text length: 283
+2026-03-02 23:01:52,937 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_narration.mp3
+2026-03-02 23:01:52,938 - daily_runner - INFO - [WorkerAI] Generating image: A calculator on a desk with papers, an early morning city sk
+2026-03-02 23:02:07,909 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_scene_0.jpg
+2026-03-02 23:02:07,912 - daily_runner - INFO - [WorkerAI] Generating image: A stack of unpaid bills on a dimly lit office desk. The ligh
+2026-03-02 23:02:30,178 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_scene_1.jpg
+2026-03-02 23:02:30,180 - daily_runner - INFO - [WorkerAI] Generating image: A declining financial chart on a computer screen. The screen
+2026-03-02 23:02:46,402 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_scene_2.jpg
+2026-03-02 23:02:46,404 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank, symbolizing broken savings and loss. R
+2026-03-02 23:03:02,536 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_scene_3.jpg
+2026-03-02 23:03:02,537 - daily_runner - INFO - [WorkerAI] Generating image: A partial silhouette of a person walking away, head down, ag
+2026-03-02 23:03:20,923 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-02_T050_scene_4.jpg
+2026-03-02 23:03:21,023 - daily_runner - INFO - Adjusted last scene duration by 6.71s to match narration. Last scene: 3.00s -> 9.71s | Scenes total was 15.00s, narration is 21.71s
+2026-03-02 23:03:21,025 - daily_runner - INFO - Selected BGM for category='Future_Uncertainty': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Future_Uncertainty.mp3
+2026-03-02 23:03:21,294 - daily_runner - INFO - Running FFmpeg...
+2026-03-02 23:03:38,940 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T050.mp4
+2026-03-02 23:03:38,968 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-02 23:03:39,142 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-02_T050_thumb.png
+2026-03-02 23:03:39,680 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-02 23:03:39,681 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-02_T050",
+  "topic_id": "T050",
+  "title": "\u0906\u0930\u094d\u0925\u093f\u0915 \u092d\u093e\u0930\u0932\u0947 \u0925\u093f\u091a\u093f\u090f\u0915\u094b \u092e\u0928... \ud83d\udc94",
+  "publish_at": "2026-03-02T17:36:28.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-02T23:03:39.681697"
+}
+2026-03-02 23:03:39,685 - daily_runner - INFO - Starting pipeline for 2026-03-02_T051
+2026-03-02 23:03:39,685 - daily_runner - INFO - Generating story for topic: T051
+2026-03-02 23:03:51,700 - daily_runner - INFO - Story generated successfully.
+2026-03-02 23:03:51,701 - daily_runner - INFO - Generating voice for text length: 397
+2026-03-03 08:05:45,997 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 08:05:51,734 - daily_runner - INFO - Starting Daily Run
+2026-03-03 08:05:51,752 - daily_runner - INFO - Starting pipeline for 2026-03-03_T0518
+2026-03-03 08:05:51,752 - daily_runner - INFO - Generating story for topic: T0518
+2026-03-03 08:06:07,934 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:06:07,935 - daily_runner - INFO - Generating voice for text length: 407
+2026-03-03 08:07:27,026 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 08:07:31,264 - daily_runner - INFO - Starting Daily Run
+2026-03-03 08:07:31,281 - daily_runner - INFO - Starting pipeline for 2026-03-03_T0518
+2026-03-03 08:07:31,282 - daily_runner - INFO - Generating story for topic: T0518
+2026-03-03 08:07:46,475 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:07:46,476 - daily_runner - INFO - Generating voice for text length: 97
+2026-03-03 08:07:51,535 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_narration.mp3
+2026-03-03 08:07:51,536 - daily_runner - INFO - [WorkerAI] Generating image: A pile of old, unpaid bills on a dimly lit office desk. A ca
+2026-03-03 08:08:32,867 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_0.jpg
+2026-03-03 08:08:32,869 - daily_runner - INFO - [WorkerAI] Generating image: A cracked ceramic piggy bank with a few coins spilling out o
+2026-03-03 08:09:16,758 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_1.jpg
+2026-03-03 08:09:16,760 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a declining financial chart on a computer moni
+2026-03-03 08:09:55,002 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_2.jpg
+2026-03-03 08:09:55,160 - daily_runner - INFO - Adjusted last scene duration by -2.47s to match narration. Last scene: 3.00s -> 2.00s | Scenes total was 9.00s, narration is 6.53s
+2026-03-03 08:09:55,161 - daily_runner - INFO - Selected BGM for category='Responsibility_Weight': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Responsibility_Weight.mp3
+2026-03-03 08:09:55,321 - daily_runner - INFO - Running FFmpeg...
+2026-03-03 08:10:03,097 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T0518.mp4
+2026-03-03 08:10:03,120 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-03 08:10:03,264 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T0518_thumb.png
+2026-03-03 08:10:04,327 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-03 08:10:04,328 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-03_T0518",
+  "topic_id": "T0518",
+  "title": "\u092e\u0939\u0901\u0917\u0940\u0915\u094b \u092d\u093e\u0930... \ud83d\ude25\ud83d\udcc9",
+  "publish_at": "2026-03-03T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-03T08:10:04.327961"
+}
+2026-03-03 08:10:04,332 - daily_runner - INFO - Starting pipeline for 2026-03-03_T0542
+2026-03-03 08:10:04,333 - daily_runner - INFO - Generating story for topic: T0542
+2026-03-03 08:10:24,094 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:10:24,095 - daily_runner - INFO - Generating voice for text length: 366
+2026-03-03 08:10:55,733 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0542_narration.mp3
+2026-03-03 08:10:55,734 - daily_runner - INFO - [WorkerAI] Generating image: Back view of a person wearing headphones, sitting alone at a
+2026-03-03 08:11:28,296 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0542_scene_0.jpg
+2026-03-03 08:11:28,298 - daily_runner - INFO - [WorkerAI] Generating image: A subtle flickering light from a distant screen (e.g., a TV 
+2026-03-03 08:11:49,366 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0542_scene_1.jpg
+2026-03-03 08:11:49,368 - daily_runner - INFO - [WorkerAI] Generating image: A cafeteria table, empty except for a pair of headphones lyi
+2026-03-03 08:38:19,336 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 08:38:28,011 - daily_runner - INFO - Starting Daily Run
+2026-03-03 08:38:28,028 - daily_runner - INFO - Starting pipeline for 2026-03-03_T051
+2026-03-03 08:38:28,029 - daily_runner - INFO - Generating story for topic: T051
+2026-03-03 08:38:40,433 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:38:40,434 - daily_runner - INFO - Generating voice for text length: 397
+2026-03-03 08:38:56,519 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T051_narration.mp3
+2026-03-03 08:38:56,529 - daily_runner - INFO - [WorkerAI] Generating image: Dim office light, a partial silhouette of a person at a desk
+2026-03-03 08:41:21,616 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 08:41:24,389 - daily_runner - INFO - Starting Daily Run
+2026-03-03 08:41:24,401 - daily_runner - INFO - Starting pipeline for 2026-03-03_T050
+2026-03-03 08:41:24,402 - daily_runner - INFO - Generating story for topic: T050
+2026-03-03 08:41:34,491 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:41:34,492 - daily_runner - INFO - Generating voice for text length: 394
+2026-03-03 08:41:46,294 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T050_narration.mp3
+2026-03-03 08:41:46,295 - daily_runner - INFO - [WorkerAI] Generating image: Partial silhouette of a person (back view) in a dimly lit of
+2026-03-03 08:44:41,807 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 08:44:44,356 - daily_runner - INFO - Starting Daily Run
+2026-03-03 08:44:44,360 - daily_runner - INFO - Starting pipeline for 2026-03-03_T0518
+2026-03-03 08:44:44,360 - daily_runner - INFO - Generating story for topic: T0518
+2026-03-03 08:44:53,958 - daily_runner - INFO - Story generated successfully.
+2026-03-03 08:44:53,958 - daily_runner - INFO - Generating voice for text length: 97
+2026-03-03 08:44:58,421 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_narration.mp3
+2026-03-03 08:44:58,422 - daily_runner - INFO - [WorkerAI] Generating image: A stack of unpaid bills on a dimly lit desk. Rain streaks do
+2026-03-03 08:45:13,796 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_0.jpg
+2026-03-03 08:45:13,798 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank sits on a table next to a flickering co
+2026-03-03 08:45:27,438 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_1.jpg
+2026-03-03 08:45:27,439 - daily_runner - INFO - [WorkerAI] Generating image: A calculator on a minimalist desk shows decreasing numbers. 
+2026-03-03 08:45:42,452 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T0518_scene_2.jpg
+2026-03-03 08:45:42,832 - daily_runner - INFO - Adjusted last scene duration by -2.42s to match narration. Last scene: 3.00s -> 2.00s | Scenes total was 9.50s, narration is 7.08s
+2026-03-03 08:45:42,832 - daily_runner - INFO - Selected BGM for category='Responsibility_Weight': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Responsibility_Weight.mp3
+2026-03-03 08:45:42,916 - daily_runner - INFO - Running FFmpeg...
+2026-03-03 08:45:50,624 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T0518.mp4
+2026-03-03 08:45:50,642 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-03 08:45:50,778 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T0518_thumb.png
+2026-03-03 08:45:51,229 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-03 08:45:51,230 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-03_T0518",
+  "topic_id": "T0518",
+  "title": "\u092a\u0948\u0938\u093e\u0915\u094b \u092e\u0942\u0932\u094d\u092f \u0918\u091f\u094d\u0926\u0948... \ud83d\ude25",
+  "publish_at": "2026-03-03T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-03T08:45:51.230558"
+}
+2026-03-03 08:45:51,233 - daily_runner - INFO - Starting pipeline for 2026-03-03_T0542
+2026-03-03 08:45:51,233 - daily_runner - INFO - Generating story for topic: T0542
+2026-03-03 18:54:34,593 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-03 18:54:40,059 - daily_runner - INFO - Starting Daily Run
+2026-03-03 18:54:40,083 - daily_runner - INFO - Starting pipeline for 2026-03-03_T003
+2026-03-03 18:54:40,084 - daily_runner - INFO - Generating story for topic: T003
+2026-03-03 18:54:54,150 - daily_runner - INFO - Story generated successfully.
+2026-03-03 18:54:54,151 - daily_runner - INFO - Generating voice for text length: 571
+2026-03-03 18:55:36,949 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T003_narration.mp3
+2026-03-03 18:55:36,951 - daily_runner - INFO - [WorkerAI] Generating image: Unpaid bills piled on a desk, a calculator beside them, soft
+2026-03-03 18:55:55,188 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T003_scene_0.jpg
+2026-03-03 18:55:55,190 - daily_runner - INFO - [WorkerAI] Generating image: Abstract representation of compounding interest, possibly a 
+2026-03-03 18:56:11,623 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T003_scene_1.jpg
+2026-03-03 18:56:11,625 - daily_runner - INFO - [WorkerAI] Generating image: A small piggy bank next to a graphic showing a small curve g
+2026-03-03 18:56:29,752 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T003_scene_2.jpg
+2026-03-03 18:56:29,755 - daily_runner - INFO - [WorkerAI] Generating image: A close-up on walking feet on a clean office floor, moving t
+2026-03-03 18:56:47,266 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-03_T003_scene_3.jpg
+2026-03-03 18:56:47,805 - daily_runner - INFO - Adjusted last scene duration by 25.31s to match narration. Last scene: 3.00s -> 28.31s | Scenes total was 14.00s, narration is 39.31s
+2026-03-03 18:56:47,807 - daily_runner - INFO - Selected BGM for category='Father_Struggle': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Father_Struggle.mp3
+2026-03-03 18:56:47,998 - daily_runner - INFO - Running FFmpeg...
+2026-03-03 18:57:12,168 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T003.mp4
+2026-03-03 18:57:12,196 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-03 18:57:12,361 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-03_T003_thumb.png
+2026-03-03 18:57:13,151 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-03 18:57:13,153 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-03_T003",
+  "topic_id": "T003",
+  "title": "\u092a\u0948\u0938\u093e\u0915\u094b \u091a\u093f\u0928\u094d\u0924\u093e\u0932\u0947 \u0938\u0924\u093e\u0909\u0901\u0926\u093e... \ud83d\ude25",
+  "publish_at": "2026-03-03T13:29:40.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-03T18:57:13.153403"
+}
+2026-03-03 18:57:13,162 - daily_runner - INFO - Starting pipeline for 2026-03-03_T004
+2026-03-03 18:57:13,165 - daily_runner - INFO - Generating story for topic: T004
+2026-03-09 07:12:33,706 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 07:12:46,395 - daily_runner - INFO - Starting Daily Run
+2026-03-09 07:12:46,398 - daily_runner - INFO - Starting pipeline for 2026-03-09_T006
+2026-03-09 07:12:46,398 - daily_runner - INFO - Generating story for topic: T006
+2026-03-09 07:12:58,331 - daily_runner - INFO - Story generated successfully.
+2026-03-09 07:12:58,331 - daily_runner - INFO - Generating voice for text length: 413
+2026-03-09 07:13:13,683 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T006_narration.mp3
+2026-03-09 07:13:13,687 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T006_narration.json
+2026-03-09 07:13:13,689 - daily_runner - INFO - [WorkerAI] Generating image: Unpaid bills scattered on a modern desk in soft daylight, a 
+2026-03-09 08:09:53,389 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 08:09:58,644 - daily_runner - INFO - Starting Daily Run
+2026-03-09 08:09:58,647 - daily_runner - INFO - Starting pipeline for 2026-03-09_T009
+2026-03-09 08:09:58,648 - daily_runner - INFO - Generating story for topic: T009
+2026-03-09 08:10:08,183 - daily_runner - INFO - Story generated successfully.
+2026-03-09 08:10:08,184 - daily_runner - INFO - Generating voice for text length: 124
+2026-03-09 08:10:15,090 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_narration.mp3
+2026-03-09 08:10:15,092 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_narration.json
+2026-03-09 08:10:15,095 - daily_runner - INFO - [WorkerAI] Generating image: A stack of unpaid bills on a wooden desk, a calculator besid
+2026-03-09 08:10:27,173 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_scene_0.jpg
+2026-03-09 08:10:27,175 - daily_runner - INFO - [WorkerAI] Generating image: A clean, modern workspace with a sturdy, traditional piggy b
+2026-03-09 08:10:38,638 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_scene_1.jpg
+2026-03-09 08:10:38,640 - daily_runner - INFO - [WorkerAI] Generating image: A declining financial chart displayed on a computer screen i
+2026-03-09 08:10:49,987 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_scene_2.jpg
+2026-03-09 08:10:49,989 - daily_runner - INFO - [WorkerAI] Generating image: Bright city skyline seen through a large office window, a so
+2026-03-09 08:11:02,466 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T009_scene_3.jpg
+2026-03-09 08:11:02,952 - daily_runner - INFO - Adjusted last scene duration by -4.47s to match narration. Last scene: 4.50s -> 2.00s | Scenes total was 15.00s, narration is 10.53s
+2026-03-09 08:11:02,954 - daily_runner - INFO - Selected BGM for category='Future_Uncertainty': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Future_Uncertainty.mp3
+2026-03-09 08:11:02,959 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:11:03,042 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:11:03,087 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:11:03,129 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:11:03,169 - daily_runner - INFO - Running FFmpeg...
+2026-03-09 08:11:13,973 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T009.mp4
+2026-03-09 08:11:13,997 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-09 08:11:14,165 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T009_thumb.png
+2026-03-09 08:11:14,549 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-09 08:11:14,550 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T009",
+  "topic_id": "T009",
+  "title": "\u0906\u092a\u0924\u0915\u093e\u0932\u0940\u0928 \u0915\u094b\u0937... \ud83d\ude25",
+  "publish_at": "2026-03-09T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-09T08:11:14.550206"
+}
+2026-03-09 08:11:14,556 - daily_runner - INFO - Starting pipeline for 2026-03-09_T010
+2026-03-09 08:11:14,557 - daily_runner - INFO - Generating story for topic: T010
+2026-03-09 08:44:32,981 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 08:44:38,762 - daily_runner - INFO - Starting Daily Run
+2026-03-09 08:44:38,765 - daily_runner - INFO - Starting pipeline for 2026-03-09_T012
+2026-03-09 08:44:38,765 - daily_runner - INFO - Generating story for topic: T012
+2026-03-09 08:44:51,225 - daily_runner - INFO - Story generated successfully.
+2026-03-09 08:44:51,226 - daily_runner - INFO - Generating voice for text length: 126
+2026-03-09 08:44:56,741 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_narration.mp3
+2026-03-09 08:44:56,743 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_narration.json
+2026-03-09 08:44:56,744 - daily_runner - INFO - [WorkerAI] Generating image: A stack of old, crumpled Nepali bills next to a calculator d
+2026-03-09 08:45:09,543 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_scene_0.jpg
+2026-03-09 08:45:09,545 - daily_runner - INFO - [WorkerAI] Generating image: A single Nepali 100 Rupee note visibly shrinking, while a Ne
+2026-03-09 08:45:22,605 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_scene_1.jpg
+2026-03-09 08:45:22,606 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank with a few coins spilling out onto a cl
+2026-03-09 08:45:34,169 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_scene_2.jpg
+2026-03-09 08:45:34,171 - daily_runner - INFO - [WorkerAI] Generating image: A stylized, abstract upward-trending stock chart in green, s
+2026-03-09 08:45:46,682 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T012_scene_3.jpg
+2026-03-09 08:45:46,767 - daily_runner - INFO - Adjusted last scene duration by -6.13s to match narration. Last scene: 4.00s -> 2.00s | Scenes total was 16.00s, narration is 9.87s
+2026-03-09 08:45:46,786 - daily_runner - INFO - Selected BGM for category='Responsibility_Weight': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Responsibility_Weight.mp3
+2026-03-09 08:45:46,791 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:45:46,856 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:45:46,897 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:45:46,939 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 08:45:46,979 - daily_runner - INFO - SFX events selected: 3
+2026-03-09 08:45:46,980 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-09 08:46:01,470 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T012.mp4
+2026-03-09 08:46:01,492 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-09 08:46:01,655 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T012_thumb.png
+2026-03-09 08:46:01,977 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-09 08:46:01,978 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T012",
+  "topic_id": "T012",
+  "title": "\u092a\u0948\u0938\u093e\u0915\u094b \u092e\u0942\u0932\u094d\u092f \u0918\u091f\u094d\u0926\u0948\u091b, \u0924\u0930 \u0915\u093f\u0928? \ud83d\udcc9\ud83d\udc94",
+  "publish_at": "2026-03-09T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-09T08:46:01.978285"
+}
+2026-03-09 08:46:01,982 - daily_runner - INFO - Starting pipeline for 2026-03-09_T013
+2026-03-09 08:46:01,982 - daily_runner - INFO - Generating story for topic: T013
+2026-03-09 09:18:15,203 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 09:18:20,720 - daily_runner - INFO - Starting Daily Run
+2026-03-09 09:18:20,724 - daily_runner - INFO - Starting pipeline for 2026-03-09_T015
+2026-03-09 09:18:20,725 - daily_runner - INFO - Generating story for topic: T015
+2026-03-09 09:18:32,475 - daily_runner - INFO - Story generated successfully.
+2026-03-09 09:18:32,476 - daily_runner - INFO - Generating voice for text length: 131
+2026-03-09 09:18:37,677 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_narration.mp3
+2026-03-09 09:18:37,680 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_narration.json
+2026-03-09 09:18:37,682 - daily_runner - INFO - [WorkerAI] Generating image: A sleek new smartphone subtly placed on a clean, modern work
+2026-03-09 09:18:51,786 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_0.jpg
+2026-03-09 09:18:51,787 - daily_runner - INFO - [WorkerAI] Generating image: A calculator displaying negative numbers or high interest va
+2026-03-09 09:19:12,659 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_1.jpg
+2026-03-09 09:19:12,661 - daily_runner - INFO - [WorkerAI] Generating image: A clean, modern office space bathed in morning sunlight from
+2026-03-09 09:19:24,950 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_2.jpg
+2026-03-09 09:19:25,074 - daily_runner - INFO - Adjusted last scene duration by -4.08s to match narration. Last scene: 5.50s -> 2.00s | Scenes total was 15.00s, narration is 10.92s
+2026-03-09 09:19:25,109 - daily_runner - INFO - Selected BGM for category='Mother_Sacrifice': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Mother_Sacrifice.mp3
+2026-03-09 09:19:25,115 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,131 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,186 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,188 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,235 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,237 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 09:19:25,277 - daily_runner - INFO - SFX events selected: 2
+2026-03-09 09:19:25,278 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-09 09:19:37,352 - daily_runner - ERROR - FFmpeg failed: ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mp3, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_narration.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:10.92, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 128 kb/s
+Input #1, mp3, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Mother_Sacrifice.mp3':
+  Metadata:
+    encoder         : Google
+  Duration: 00:02:44.05, start: 0.025057, bitrate: 320 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 320 kb/s
+      Metadata:
+        encoder         : Lavf
+Input #2, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_0.jpg':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1024x1024, 25 fps, 25 tbr, 25 tbn
+Input #3, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_0.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgba(pc, gbr/unknown/unknown), 1080x1920, 25 fps, 25 tbr, 25 tbn
+Input #4, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_1.jpg':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1024x1024, 25 fps, 25 tbr, 25 tbn
+Input #5, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_1.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgba(pc, gbr/unknown/unknown), 1080x1920, 25 fps, 25 tbr, 25 tbn
+Input #6, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T015_scene_2.jpg':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1024x1024, 25 fps, 25 tbr, 25 tbn
+Input #7, png_pipe, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_2.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgba(pc, gbr/unknown/unknown), 1080x1920, 25 fps, 25 tbr, 25 tbn
+[mp3 @ 000002327518e400] Estimating duration from bitrate, this may be inaccurate
+Input #8, mp3, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\sfx\pop.mp3':
+  Duration: 00:00:01.63, start: 0.000000, bitrate: 256 kb/s
+  Stream #8:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 256 kb/s
+[mp3 @ 0000023275e46d40] Format mp3 detected only with low score of 25, misdetection possible!
+Input #9, mp3, from 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\sfx\impact.mp3':
+  Metadata:
+    title           : Crash Impact Sweetener
+    album           : YouTube Audio Library
+    encoder         : Google
+  Duration: 00:00:03.60, start: 0.025057, bitrate: 322 kb/s
+  Stream #9:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 320 kb/s
+      Metadata:
+        encoder         : Lavf
+Stream mapping:
+  Stream #0:0 (mp3float) -> aformat:default
+  Stream #1:0 (mp3float) -> aformat:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> format:default
+  Stream #4:0 (png) -> scale:default
+  Stream #5:0 (png) -> format:default
+  Stream #6:0 (png) -> scale:default
+  Stream #7:0 (png) -> format:default
+  Stream #8:0 (mp3float) -> aformat:default
+  Stream #9:0 (mp3float) -> aformat:default
+  xfade:default -> Stream #0:0 (libx264)
+  amix:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 00000232750ff040] using SAR=1/1
+[libx264 @ 00000232750ff040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000232750ff040] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 00000232750ff040] 264 - core 164 r3204 373697b - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T015.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    3 fps=0.7 q=26.0 size=       0KiB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   16 fps=3.4 q=26.0 size=       0KiB time=00:00:00.46 bitrate=   0.8kbits/s speed=0.0994x    frame=   32 fps=6.1 q=26.0 size=       0KiB time=00:00:00.96 bitrate=   0.4kbits/s speed=0.186x    frame=   49 fps=8.5 q=26.0 size=     256KiB time=00:00:01.56 bitrate=1338.9kbits/s speed=0.273x    frame=   64 fps= 10 q=26.0 size=     256KiB time=00:00:02.06 bitrate=1014.9kbits/s speed=0.33x    frame=   79 fps= 12 q=26.0 size=     256KiB time=00:00:02.56 bitrate= 817.2kbits/s speed=0.378x    frame=   99 fps= 14 q=26.0 size=     512KiB time=00:00:03.23 bitrate=1297.3kbits/s speed=0.442x    frame=  118 fps= 15 q=26.0 size=     512KiB time=00:00:03.86 bitrate=1084.8kbits/s speed=0.494x    frame=  133 fps= 16 q=26.0 size=     768KiB time=00:00:04.36 bitrate=1440.9kbits/s speed=0.523x    frame=  156 fps= 18 q=26.0 size=    1024KiB time=00:00:05.13 bitrate=1634.2kbits/s speed=0.578x    frame=  179 fps= 19 q=26.0 size=    1280KiB time=00:00:05.90 bitrate=1777.3kbits/s speed=0.625x    frame=  201 fps= 20 q=26.0 size=    1536KiB time=00:00:06.63 bitrate=1897.0kbits/s speed=0.665x    [png @ 00000232771c3b80] get_buffer() failed
+[png @ 00000232771c3b80] thread_get_buffer() failed
+[png @ 00000232771c7680] get_buffer() failed
+[png @ 00000232771c7680] thread_get_buffer() failed
+[png @ 00000232771c6040] get_buffer() failed
+[png @ 00000232771c6040] thread_get_buffer() failed
+[png @ 00000232771c6400] get_buffer() failed
+[png @ 00000232771c6400] thread_get_buffer() failed
+frame=  215 fps= 20 q=26.0 size=    1536KiB time=00:00:07.10 bitrate=1772.3kbits/s speed=0.676x    [png @ 00000232771c67c0] get_buffer() failed
+[png @ 00000232771c67c0] thread_get_buffer() failed
+[fc#0 @ 00000232750c7e00] Error while filtering: Cannot allocate memory
+[fc#0 @ 00000232750c7e00] Task finished with error code: -12 (Cannot allocate memory)
+[fc#0 @ 00000232750c7e00] Terminating thread with return code -12 (Cannot allocate memory)
+[out#0/mp4 @ 0000023275139740] video:2210KiB audio:221KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.459908%
+frame=  277 fps= 24 q=-1.0 Lsize=    2442KiB time=00:00:09.16 bitrate=2182.8kbits/s speed= 0.8x    
+[libx264 @ 00000232750ff040] frame I:2     Avg QP:17.08  size: 95706
+[libx264 @ 00000232750ff040] frame P:72    Avg QP:18.07  size: 18275
+[libx264 @ 00000232750ff040] frame B:203   Avg QP:20.97  size:  3721
+[libx264 @ 00000232750ff040] consecutive B-frames:  1.1%  2.9%  2.2% 93.9%
+[libx264 @ 00000232750ff040] mb I  I16..4: 23.8% 62.9% 13.3%
+[libx264 @ 00000232750ff040] mb P  I16..4:  3.6%  5.8%  0.7%  P16..4: 36.6%  8.2%  4.4%  0.0%  0.0%    skip:40.8%
+[libx264 @ 00000232750ff040] mb B  I16..4:  0.2%  0.1%  0.0%  B16..8: 34.1%  0.3%  0.0%  direct: 0.9%  skip:64.3%  L0:52.3% L1:46.0% BI: 1.7%
+[libx264 @ 00000232750ff040] 8x8 transform intra:56.8% inter:91.0%
+[libx264 @ 00000232750ff040] coded y,uvDC,uvAC intra: 40.8% 60.9% 17.0% inter: 4.5% 6.7% 0.2%
+[libx264 @ 00000232750ff040] i16 v,h,dc,p: 38% 18%  3% 41%
+[libx264 @ 00000232750ff040] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 34% 22% 13%  4%  5%  5%  6%  7%  4%
+[libx264 @ 00000232750ff040] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 34% 26% 11%  4%  6%  5%  6%  5%  3%
+[libx264 @ 00000232750ff040] i8c dc,h,v,p: 46% 21% 28%  5%
+[libx264 @ 00000232750ff040] Weighted P-Frames: Y:6.9% UV:6.9%
+[libx264 @ 00000232750ff040] ref P L0: 63.7%  4.5% 22.3%  9.3%  0.1%
+[libx264 @ 00000232750ff040] ref B L0: 88.6%  9.9%  1.6%
+[libx264 @ 00000232750ff040] ref B L1: 93.9%  6.1%
+[libx264 @ 00000232750ff040] kb/s:1960.32
+[aac @ 00000232751002c0] Qavg: 988.433
+Conversion failed!
+
+2026-03-09 09:19:37,358 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T015",
+  "topic_id": "T015",
+  "title": "\u0938\u092a\u0928\u093e\u0915\u094b \u092b\u094b\u0928, EMI \u0915\u094b \u092c\u094b\u091d... \ud83d\ude14\ud83d\udcb8",
+  "publish_at": "N/A",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Video assembly failed",
+  "timestamp": "2026-03-09T09:19:37.358607"
+}
+2026-03-09 09:19:37,359 - daily_runner - INFO - Starting pipeline for 2026-03-09_T016
+2026-03-09 09:19:37,360 - daily_runner - INFO - Generating story for topic: T016
+2026-03-09 13:51:58,685 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 13:52:10,179 - daily_runner - INFO - Starting Daily Run
+2026-03-09 13:52:10,210 - daily_runner - INFO - Starting pipeline for 2026-03-09_T018
+2026-03-09 13:52:10,212 - daily_runner - INFO - Generating story for topic: T018
+2026-03-09 13:52:23,093 - daily_runner - INFO - Story generated successfully.
+2026-03-09 13:52:23,094 - daily_runner - INFO - Generating voice for text length: 226
+2026-03-09 13:52:33,926 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_narration.mp3
+2026-03-09 13:52:33,929 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_narration.json
+2026-03-09 13:52:33,933 - daily_runner - INFO - [WorkerAI] Generating image: Close-up on a stack of unpaid bills on a desk, a calculator 
+2026-03-09 13:52:46,527 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_scene_0.jpg
+2026-03-09 13:52:46,530 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank on a clean modern workspace, with a sub
+2026-03-09 13:52:57,646 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_scene_1.jpg
+2026-03-09 13:52:57,647 - daily_runner - INFO - [WorkerAI] Generating image: A clean modern workspace with multiple small, growing financ
+2026-03-09 13:53:10,347 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_scene_2.jpg
+2026-03-09 13:53:10,348 - daily_runner - INFO - [WorkerAI] Generating image: A clean modern workspace at night, with a subtle glow from a
+2026-03-09 13:53:22,843 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T018_scene_3.jpg
+2026-03-09 13:53:23,676 - daily_runner - INFO - Adjusted last scene duration by -0.73s to match narration. Last scene: 4.50s -> 3.77s | Scenes total was 17.00s, narration is 16.27s
+2026-03-09 13:53:23,691 - daily_runner - INFO - Selected BGM for category='Silent_Love': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Silent_Love.mp3
+2026-03-09 13:53:23,697 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,712 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,767 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,768 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,818 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,819 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,870 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,871 - daily_runner - WARNING - Font not found: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf. Falling back to default font.
+2026-03-09 13:53:23,917 - daily_runner - INFO - SFX events selected: 3
+2026-03-09 13:53:23,918 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-09 13:53:41,766 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T018.mp4
+2026-03-09 13:53:41,794 - daily_runner - WARNING - Font not found at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\assets\fonts\NotoSansDevanagari-Bold.ttf, attempting system fallback or skipping detailed text render.
+2026-03-09 13:53:41,994 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T018_thumb.png
+2026-03-09 13:53:42,342 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-09 13:53:42,343 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T018",
+  "topic_id": "T018",
+  "title": "\u0906\u092e\u094d\u0926\u093e\u0928\u0940\u0915\u094b \u091a\u093f\u0928\u094d\u0924\u093e... \ud83d\ude14\ud83d\udcb8",
+  "publish_at": "2026-03-09T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-09T13:53:42.343654"
+}
+2026-03-09 13:53:42,351 - daily_runner - INFO - Starting pipeline for 2026-03-09_T019
+2026-03-09 13:53:42,353 - daily_runner - INFO - Generating story for topic: T019
+2026-03-09 14:10:33,988 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 14:10:39,296 - daily_runner - INFO - Starting Daily Run
+2026-03-09 14:10:39,300 - daily_runner - INFO - Starting pipeline for 2026-03-09_T021
+2026-03-09 14:10:39,300 - daily_runner - INFO - Generating story for topic: T021
+2026-03-09 14:10:48,408 - daily_runner - INFO - Story generated successfully.
+2026-03-09 14:10:48,409 - daily_runner - INFO - Generating voice for text length: 125
+2026-03-09 14:10:52,887 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T021_narration.mp3
+2026-03-09 14:10:52,890 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T021_narration.json
+2026-03-09 14:10:52,891 - daily_runner - INFO - [WorkerAI] Generating image: A stack of IPO application forms on a desk, some looking rej
+2026-03-09 14:11:05,509 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T021_scene_0.jpg
+2026-03-09 14:11:05,511 - daily_runner - INFO - [WorkerAI] Generating image: A clean, modern workspace with a computer screen displaying 
+2026-03-09 14:11:18,504 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T021_scene_1.jpg
+2026-03-09 14:11:18,506 - daily_runner - INFO - [WorkerAI] Generating image: A bright city skyline in the distance, visible through a lar
+2026-03-09 14:11:29,750 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T021_scene_2.jpg
+2026-03-09 14:11:29,878 - daily_runner - INFO - Adjusted last scene duration by -5.36s to match narration. Last scene: 5.50s -> 2.00s | Scenes total was 15.00s, narration is 9.64s
+2026-03-09 14:11:29,900 - daily_runner - INFO - Selected BGM for category='Dream_vs_Reality': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Dream_vs_Reality.mp3
+2026-03-09 14:11:30,132 - daily_runner - INFO - SFX events selected: 0
+2026-03-09 14:11:30,133 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-09 14:11:42,348 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T021.mp4
+2026-03-09 14:11:42,537 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T021_thumb.png
+2026-03-09 14:11:42,866 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-09 14:11:42,867 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T021",
+  "topic_id": "T021",
+  "title": "IPO \u0928\u092a\u0930\u0947\u0915\u094b \u092a\u0940\u0921\u093e, \u0924\u0930...\ud83d\ude22",
+  "publish_at": "2026-03-09T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-09T14:11:42.867593"
+}
+2026-03-09 14:11:42,870 - daily_runner - INFO - Starting pipeline for 2026-03-09_T022
+2026-03-09 14:11:42,871 - daily_runner - INFO - Generating story for topic: T022
+2026-03-09 14:11:52,927 - daily_runner - INFO - Story generated successfully.
+2026-03-09 14:11:52,928 - daily_runner - INFO - Generating voice for text length: 192
+2026-03-09 16:14:10,069 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-09 16:14:15,630 - daily_runner - INFO - Starting Daily Run
+2026-03-09 16:14:15,634 - daily_runner - INFO - Starting pipeline for 2026-03-09_T024
+2026-03-09 16:14:15,635 - daily_runner - INFO - Generating story for topic: T024
+2026-03-09 16:14:26,659 - daily_runner - INFO - Story generated successfully.
+2026-03-09 16:14:26,660 - daily_runner - INFO - Generating voice for text length: 200
+2026-03-09 16:14:36,718 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T024_narration.mp3
+2026-03-09 16:14:36,721 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T024_narration.json
+2026-03-09 16:14:36,723 - daily_runner - INFO - [WorkerAI] Generating image: Rising stock market chart on a screen, clean modern workspac
+2026-03-09 16:14:51,370 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T024_scene_0.jpg
+2026-03-09 16:14:51,410 - daily_runner - INFO - [WorkerAI] Generating image: Calculator displaying growing numbers, a person's partial si
+2026-03-09 16:15:02,550 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T024_scene_1.jpg
+2026-03-09 16:15:02,552 - daily_runner - INFO - [WorkerAI] Generating image: Declining financial chart on a computer screen, an unpaid bi
+2026-03-09 16:15:15,528 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-09_T024_scene_2.jpg
+2026-03-09 16:15:16,102 - daily_runner - INFO - Adjusted last scene duration by 1.21s to match narration. Last scene: 5.00s -> 6.21s | Scenes total was 13.00s, narration is 14.21s
+2026-03-09 16:15:16,141 - daily_runner - INFO - Selected BGM for category='Education_Pressure': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Education_Pressure.mp3
+2026-03-09 16:15:16,352 - daily_runner - INFO - SFX events selected: 1
+2026-03-09 16:15:16,353 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-09 16:15:32,080 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T024.mp4
+2026-03-09 16:15:32,279 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-09_T024_thumb.png
+2026-03-09 16:15:32,659 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-09 16:15:32,660 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-09_T024",
+  "topic_id": "T024",
+  "title": "\u091c\u093e\u0932\u092e\u093e \u092b\u0901\u0938\u0947\u0901 \u0915\u093f... \ud83e\udd14\ud83d\udcc9",
+  "publish_at": "2026-03-09T10:49:15.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-09T16:15:32.660567"
+}
+2026-03-09 16:15:32,665 - daily_runner - INFO - Starting pipeline for 2026-03-09_T025
+2026-03-09 16:15:32,665 - daily_runner - INFO - Generating story for topic: T025
+2026-03-10 08:02:54,682 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 08:03:09,739 - daily_runner - INFO - Starting Daily Run
+2026-03-10 08:03:09,764 - daily_runner - INFO - Starting pipeline for 2026-03-10_T027
+2026-03-10 08:03:09,765 - daily_runner - INFO - Generating story for topic: T027
+2026-03-10 08:03:20,516 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:03:20,517 - daily_runner - INFO - Generating voice for text length: 225
+2026-03-10 08:03:35,310 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_narration.mp3
+2026-03-10 08:03:35,312 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_narration.json
+2026-03-10 08:03:35,315 - daily_runner - INFO - [WorkerAI] Generating image: A computer screen displaying a stock chart with a prominent 
+2026-03-10 08:03:49,224 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_scene_0.jpg
+2026-03-10 08:03:49,226 - daily_runner - INFO - [WorkerAI] Generating image: A stack of symbolic financial assets or a large, stable, abs
+2026-03-10 08:04:02,045 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_scene_1.jpg
+2026-03-10 08:04:02,046 - daily_runner - INFO - [WorkerAI] Generating image: A small, cracked piggy bank next to a stack of unpaid bills 
+2026-03-10 08:04:16,268 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_scene_2.jpg
+2026-03-10 08:04:16,270 - daily_runner - INFO - [WorkerAI] Generating image: A subtle, abstract representation of a large, stable upward 
+2026-03-10 08:04:29,152 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T027_scene_3.jpg
+2026-03-10 08:04:29,794 - daily_runner - INFO - Adjusted last scene duration by -2.77s to match narration. Last scene: 4.50s -> 2.00s | Scenes total was 18.00s, narration is 15.23s
+2026-03-10 08:04:29,823 - daily_runner - INFO - Selected BGM for category='Missed_Moment': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Missed_Moment.mp3
+2026-03-10 08:04:29,826 - daily_runner - ERROR - Critical error processing topic T027: 'VideoTextRenderer' object has no attribute 'create_text_overlay'
+2026-03-10 08:04:29,827 - daily_runner - INFO - Starting pipeline for 2026-03-10_T028
+2026-03-10 08:04:29,827 - daily_runner - INFO - Generating story for topic: T028
+2026-03-10 08:04:43,226 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:04:43,227 - daily_runner - INFO - Generating voice for text length: 503
+2026-03-10 08:04:59,181 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_narration.mp3
+2026-03-10 08:04:59,187 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_narration.json
+2026-03-10 08:04:59,189 - daily_runner - INFO - [WorkerAI] Generating image: Unpaid bills and financial documents spread on a table, soft
+2026-03-10 08:05:11,749 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_scene_0.jpg
+2026-03-10 08:05:11,752 - daily_runner - INFO - [WorkerAI] Generating image: A clear declining financial chart on a computer screen in a 
+2026-03-10 08:05:24,022 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_scene_1.jpg
+2026-03-10 08:05:24,024 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank on an empty desk, symbolizing loss and 
+2026-03-10 08:05:35,319 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_scene_2.jpg
+2026-03-10 08:05:35,321 - daily_runner - INFO - [WorkerAI] Generating image: Multiple different baskets, each containing different types 
+2026-03-10 08:05:48,073 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T028_scene_3.jpg
+2026-03-10 08:05:48,162 - daily_runner - INFO - Adjusted last scene duration by 25.19s to match narration. Last scene: 4.00s -> 29.19s | Scenes total was 13.00s, narration is 38.19s
+2026-03-10 08:05:48,188 - daily_runner - INFO - Selected BGM for category='Mother_Sacrifice': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Mother_Sacrifice.mp3
+2026-03-10 08:05:48,189 - daily_runner - ERROR - Critical error processing topic T028: 'VideoTextRenderer' object has no attribute 'create_text_overlay'
+2026-03-10 08:05:48,189 - daily_runner - INFO - Starting pipeline for 2026-03-10_T029
+2026-03-10 08:05:48,190 - daily_runner - INFO - Generating story for topic: T029
+2026-03-10 08:05:59,898 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:05:59,900 - daily_runner - INFO - Generating voice for text length: 374
+2026-03-10 08:06:11,455 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T029_narration.mp3
+2026-03-10 08:06:11,457 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T029_narration.json
+2026-03-10 08:06:11,459 - daily_runner - INFO - [WorkerAI] Generating image: A clean modern workspace with soft daylight shining through 
+2026-03-10 08:06:23,750 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T029_scene_0.jpg
+2026-03-10 08:06:23,752 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a declining financial chart on a computer scre
+2026-03-10 08:06:36,512 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T029_scene_1.jpg
+2026-03-10 08:06:36,514 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank on a clean modern desk, a calculator be
+2026-03-10 08:06:56,586 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T029_scene_2.jpg
+2026-03-10 08:06:56,688 - daily_runner - INFO - Adjusted last scene duration by 7.97s to match narration. Last scene: 6.00s -> 13.97s | Scenes total was 18.00s, narration is 25.97s
+2026-03-10 08:06:56,718 - daily_runner - INFO - Selected BGM for category='Father_Struggle': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Father_Struggle.mp3
+2026-03-10 08:06:56,719 - daily_runner - ERROR - Critical error processing topic T029: 'VideoTextRenderer' object has no attribute 'create_text_overlay'
+2026-03-10 08:06:56,720 - daily_runner - INFO - Report saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\report.json
+2026-03-10 08:12:20,271 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 08:12:27,657 - daily_runner - INFO - Starting Daily Run
+2026-03-10 08:12:27,662 - daily_runner - INFO - Starting pipeline for 2026-03-10_T030
+2026-03-10 08:12:27,663 - daily_runner - INFO - Generating story for topic: T030
+2026-03-10 08:12:38,335 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:12:38,335 - daily_runner - INFO - Generating voice for text length: 438
+2026-03-10 08:12:54,502 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T030_narration.mp3
+2026-03-10 08:12:54,506 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T030_narration.json
+2026-03-10 08:12:54,513 - daily_runner - INFO - [WorkerAI] Generating image: A silhouette of a person from behind, sitting at a clean mod
+2026-03-10 08:13:07,781 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T030_scene_0.jpg
+2026-03-10 08:13:07,809 - daily_runner - INFO - [WorkerAI] Generating image: Close-up of a computer screen displaying financial data, spe
+2026-03-10 08:13:20,486 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T030_scene_1.jpg
+2026-03-10 08:13:20,488 - daily_runner - INFO - [WorkerAI] Generating image: A silhouette of a person standing at a window, looking out a
+2026-03-10 08:13:33,228 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T030_scene_2.jpg
+2026-03-10 08:13:33,341 - daily_runner - INFO - Adjusted last scene duration by 19.47s to match narration. Last scene: 3.50s -> 22.97s | Scenes total was 10.00s, narration is 29.47s
+2026-03-10 08:13:33,375 - daily_runner - INFO - Selected BGM for category='Middle_Class_Reality': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Middle_Class_Reality.mp3
+2026-03-10 08:13:33,590 - daily_runner - INFO - SFX events selected: 2
+2026-03-10 08:13:33,591 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-10 08:13:57,148 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T030.mp4
+2026-03-10 08:13:57,426 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T030_thumb.png
+2026-03-10 08:13:57,875 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-10 08:13:57,877 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-10_T030",
+  "topic_id": "T030",
+  "title": "\u092e\u0941\u0928\u093e\u092b\u093e\u0915\u094b \u0930\u0939\u0938\u094d\u092f... \ud83e\uddd0",
+  "publish_at": "2026-03-10T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-10T08:13:57.877444"
+}
+2026-03-10 08:13:57,887 - daily_runner - INFO - Starting pipeline for 2026-03-10_T031
+2026-03-10 08:13:57,891 - daily_runner - INFO - Generating story for topic: T031
+2026-03-10 08:27:18,397 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 08:27:24,272 - daily_runner - INFO - Starting Daily Run
+2026-03-10 08:27:24,276 - daily_runner - INFO - Starting pipeline for 2026-03-10_T033
+2026-03-10 08:27:24,278 - daily_runner - INFO - Generating story for topic: T033
+2026-03-10 08:27:36,666 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:27:36,667 - daily_runner - INFO - Generating voice for text length: 304
+2026-03-10 08:27:50,713 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_narration.mp3
+2026-03-10 08:27:50,717 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_narration.json
+2026-03-10 08:27:50,719 - daily_runner - INFO - [WorkerAI] Generating image: Partial silhouette of a person from behind, looking at a com
+2026-03-10 08:28:02,580 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_scene_0.jpg
+2026-03-10 08:28:02,620 - daily_runner - INFO - [WorkerAI] Generating image: A prominent, secure digital locker icon with a strong lock s
+2026-03-10 08:28:14,533 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_scene_1.jpg
+2026-03-10 08:28:14,536 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a keyboard with only the partial silhouette of
+2026-03-10 08:28:26,811 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_scene_2.jpg
+2026-03-10 08:28:26,813 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank in the foreground, with a calculator sh
+2026-03-10 08:28:38,540 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T033_scene_3.jpg
+2026-03-10 08:28:38,674 - daily_runner - INFO - Adjusted last scene duration by 3.13s to match narration. Last scene: 5.50s -> 8.63s | Scenes total was 19.00s, narration is 22.13s
+2026-03-10 08:28:38,701 - daily_runner - INFO - Selected BGM for category='Self_Confession': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Self_Confession.mp3
+2026-03-10 08:28:38,708 - daily_runner - INFO - Rendering text overlay PNG with FFmpeg/libass...
+2026-03-10 08:28:38,966 - daily_runner - INFO - ASS/FFmpeg text overlay saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_0.png
+2026-03-10 08:28:38,969 - daily_runner - INFO - Rendering text overlay PNG with FFmpeg/libass...
+2026-03-10 08:28:39,132 - daily_runner - INFO - ASS/FFmpeg text overlay saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_1.png
+2026-03-10 08:28:39,134 - daily_runner - INFO - Rendering text overlay PNG with FFmpeg/libass...
+2026-03-10 08:28:39,296 - daily_runner - INFO - ASS/FFmpeg text overlay saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_2.png
+2026-03-10 08:28:39,299 - daily_runner - INFO - Rendering text overlay PNG with FFmpeg/libass...
+2026-03-10 08:28:39,457 - daily_runner - INFO - ASS/FFmpeg text overlay saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\text_3.png
+2026-03-10 08:28:39,459 - daily_runner - INFO - SFX events selected: 2
+2026-03-10 08:28:39,460 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-10 08:28:56,295 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T033.mp4
+2026-03-10 08:28:56,520 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T033_thumb.png
+2026-03-10 08:28:56,781 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-10 08:28:56,783 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-10_T033",
+  "topic_id": "T033",
+  "title": "\u092e\u0947\u0930\u094b \u0921\u093f\u092e\u094d\u092f\u093e\u091f \u091a\u093f\u0928\u094d\u0924\u093e... \ud83d\ude25",
+  "publish_at": "2026-03-10T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-10T08:28:56.782936"
+}
+2026-03-10 08:28:56,789 - daily_runner - INFO - Starting pipeline for 2026-03-10_T034
+2026-03-10 08:28:56,790 - daily_runner - INFO - Generating story for topic: T034
+2026-03-10 08:34:24,539 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 08:34:29,897 - daily_runner - INFO - Starting Daily Run
+2026-03-10 08:34:29,900 - daily_runner - INFO - Starting pipeline for 2026-03-10_T036
+2026-03-10 08:34:29,900 - daily_runner - INFO - Generating story for topic: T036
+2026-03-10 08:34:39,693 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:34:39,694 - daily_runner - INFO - Generating voice for text length: 125
+2026-03-10 08:34:45,248 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T036_narration.mp3
+2026-03-10 08:34:45,251 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T036_narration.json
+2026-03-10 08:34:45,252 - daily_runner - INFO - [WorkerAI] Generating image: Soft daylight office, clean modern workspace. Focus on a cal
+2026-03-10 08:34:59,275 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T036_scene_0.jpg
+2026-03-10 08:34:59,277 - daily_runner - INFO - [WorkerAI] Generating image: Close up of a cracked piggy bank on a desk, next to a stack 
+2026-03-10 08:35:11,203 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T036_scene_1.jpg
+2026-03-10 08:35:11,205 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a digital screen displaying stock portfolio da
+2026-03-10 08:35:22,864 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T036_scene_2.jpg
+2026-03-10 08:35:22,960 - daily_runner - INFO - Adjusted last scene duration by 1.31s to match narration. Last scene: 3.00s -> 4.31s | Scenes total was 10.00s, narration is 11.31s
+2026-03-10 08:35:22,986 - daily_runner - INFO - Selected BGM for category='Struggle_Silently': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Struggle_Silently.mp3
+2026-03-10 08:35:22,991 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 08:35:23,274 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 08:35:23,469 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 08:35:23,640 - daily_runner - INFO - SFX events selected: 0
+2026-03-10 08:35:23,640 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-10 08:35:35,312 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T036.mp4
+2026-03-10 08:35:35,568 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T036_thumb.png
+2026-03-10 08:35:35,970 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-10 08:35:35,972 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-10_T036",
+  "topic_id": "T036",
+  "title": "\u0939\u093f\u0938\u093e\u092c \u092e\u093f\u0932\u0947\u0928, \u0905\u092c \u0915\u0947 \u0917\u0930\u094d\u0928\u0947? \ud83d\ude1f",
+  "publish_at": "2026-03-10T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-10T08:35:35.972037"
+}
+2026-03-10 08:35:35,980 - daily_runner - INFO - Starting pipeline for 2026-03-10_T037
+2026-03-10 08:35:35,981 - daily_runner - INFO - Generating story for topic: T037
+2026-03-10 08:38:00,667 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 08:38:06,146 - daily_runner - INFO - Starting Daily Run
+2026-03-10 08:38:06,149 - daily_runner - INFO - Starting pipeline for 2026-03-10_T039
+2026-03-10 08:38:06,149 - daily_runner - INFO - Generating story for topic: T039
+2026-03-10 08:38:20,259 - daily_runner - INFO - Story generated successfully.
+2026-03-10 08:38:20,259 - daily_runner - INFO - Generating voice for text length: 384
+2026-03-10 08:38:34,099 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T039_narration.mp3
+2026-03-10 08:38:34,102 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T039_narration.json
+2026-03-10 08:38:34,103 - daily_runner - INFO - [WorkerAI] Generating image: Visual Logic: Priority 1: Strong, stable financial object (e
+2026-03-10 22:55:35,969 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 22:55:45,812 - daily_runner - INFO - Starting Daily Run
+2026-03-10 22:55:45,834 - daily_runner - INFO - Starting pipeline for 2026-03-10_T002
+2026-03-10 22:55:45,835 - daily_runner - INFO - Generating story for topic: T002
+2026-03-10 22:56:01,255 - daily_runner - INFO - Story generated successfully.
+2026-03-10 22:56:01,255 - daily_runner - INFO - Generating voice for text length: 276
+2026-03-10 22:56:18,091 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_narration.mp3
+2026-03-10 22:56:18,093 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_narration.json
+2026-03-10 22:56:18,094 - daily_runner - INFO - [WorkerAI] Generating image: Close up of a stack of old, unpaid bills next to a small, op
+2026-03-10 22:56:30,575 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_scene_0.jpg
+2026-03-10 22:56:30,577 - daily_runner - INFO - [WorkerAI] Generating image: A calculator on a clean modern workspace, displaying a very 
+2026-03-10 22:56:43,644 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_scene_1.jpg
+2026-03-10 22:56:43,657 - daily_runner - INFO - [WorkerAI] Generating image: A cracked ceramic piggy bank, lying on its side, with a few 
+2026-03-10 22:56:55,297 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_scene_2.jpg
+2026-03-10 22:56:55,299 - daily_runner - INFO - [WorkerAI] Generating image: A partial silhouette of a woman walking away from a window i
+2026-03-10 22:57:07,901 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T002_scene_3.jpg
+2026-03-10 22:57:08,248 - daily_runner - INFO - Adjusted last scene duration by 1.80s to match narration. Last scene: 5.00s -> 6.80s | Scenes total was 18.00s, narration is 19.80s
+2026-03-10 22:57:08,263 - daily_runner - INFO - Selected BGM for category='Mother_Sacrifice': C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\src\background_music\Mother_Sacrifice.mp3
+2026-03-10 22:57:08,266 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:08,728 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:08,843 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:08,957 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,071 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,182 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,321 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,457 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,575 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,700 - daily_runner - INFO - Rendering text overlay with FFmpeg + ASS...
+2026-03-10 22:57:09,818 - daily_runner - INFO - SFX events selected: 5
+2026-03-10 22:57:09,819 - daily_runner - INFO - Running upgraded FFmpeg render...
+2026-03-10 22:57:28,901 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T002.mp4
+2026-03-10 22:57:29,139 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T002_thumb.png
+2026-03-10 22:57:29,472 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-10 22:57:29,475 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-10_T002",
+  "topic_id": "T002",
+  "title": "\u092e\u0947\u0930\u094b \u092c\u091a\u0924... \ud83d\udc94 \u0915\u0939\u093e\u0901 \u092a\u0941\u0917\u094d\u091b \u0930? \ud83d\ude14",
+  "publish_at": "2026-03-10T17:30:45.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-10T22:57:29.474612"
+}
+2026-03-10 22:57:29,484 - daily_runner - INFO - Starting pipeline for 2026-03-10_T003
+2026-03-10 22:57:29,488 - daily_runner - INFO - Generating story for topic: T003
+2026-03-10 22:57:41,888 - daily_runner - INFO - Story generated successfully.
+2026-03-10 22:57:41,888 - daily_runner - INFO - Generating voice for text length: 205
+2026-03-10 22:57:52,919 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T003_narration.mp3
+2026-03-10 22:57:52,921 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T003_narration.json
+2026-03-10 22:57:52,922 - daily_runner - INFO - [WorkerAI] Generating image: Back view of a man, partial silhouette, looking at a stack o
+2026-03-10 23:28:35,237 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 23:28:39,173 - daily_runner - INFO - Starting Daily Run
+2026-03-10 23:28:39,175 - daily_runner - INFO - Starting pipeline for 2026-03-10_T005
+2026-03-10 23:28:39,176 - daily_runner - INFO - Generating story for topic: T005
+2026-03-10 23:28:48,947 - daily_runner - INFO - Story generated successfully.
+2026-03-10 23:28:48,947 - daily_runner - INFO - Generating voice for text length: 138
+2026-03-10 23:28:56,063 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T005_narration.mp3
+2026-03-10 23:28:56,065 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T005_narration.json
+2026-03-10 23:28:56,067 - daily_runner - INFO - [WorkerAI] Generating image: A modern, desirable electronic gadget on a clean desk. Overl
+2026-03-10 23:29:09,953 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T005_scene_0.jpg
+2026-03-10 23:29:09,955 - daily_runner - INFO - [WorkerAI] Generating image: A close-up of a calculator showing increasing numbers, with 
+2026-03-10 23:29:23,506 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T005_scene_1.jpg
+2026-03-10 23:29:23,507 - daily_runner - INFO - [WorkerAI] Generating image: A clean, modern workspace with subtle financial charts on a 
+2026-03-10 23:29:35,723 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T005_scene_2.jpg
+2026-03-10 23:29:36,083 - daily_runner - INFO - Adjusted last scene duration by -2.00s to match narration. Last scene: 4.00s -> 2.00s | Scenes total was 13.00s, narration is 11.00s
+2026-03-10 23:29:36,105 - daily_runner - ERROR - Critical error processing topic T005: invalid group reference 1 at position 2
+2026-03-10 23:29:36,105 - daily_runner - INFO - Starting pipeline for 2026-03-10_T006
+2026-03-10 23:29:36,106 - daily_runner - INFO - Generating story for topic: T006
+2026-03-10 23:29:50,216 - daily_runner - INFO - Story generated successfully.
+2026-03-10 23:29:50,217 - daily_runner - INFO - Generating voice for text length: 337
+2026-03-10 23:48:14,270 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-10 23:48:19,416 - daily_runner - INFO - Starting Daily Run
+2026-03-10 23:48:19,420 - daily_runner - INFO - Starting pipeline for 2026-03-10_T008
+2026-03-10 23:48:19,421 - daily_runner - INFO - Generating story for topic: T008
+2026-03-10 23:48:29,629 - daily_runner - INFO - Story generated successfully.
+2026-03-10 23:48:29,630 - daily_runner - INFO - Generating voice for text length: 299
+2026-03-10 23:48:44,324 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T008_narration.mp3
+2026-03-10 23:48:44,327 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T008_narration.json
+2026-03-10 23:48:44,366 - daily_runner - INFO - [WorkerAI] Generating image: Unpaid bills stacked on a desk, a subtle declining chart in 
+2026-03-10 23:48:58,383 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T008_scene_0.jpg
+2026-03-10 23:48:58,385 - daily_runner - INFO - [WorkerAI] Generating image: A calculator displaying 'Denied' or 'Insufficient Funds', a 
+2026-03-10 23:49:13,509 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T008_scene_1.jpg
+2026-03-10 23:49:13,511 - daily_runner - INFO - [WorkerAI] Generating image: A clean modern workspace, morning sunlight streaming through
+2026-03-10 23:49:26,225 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T008_scene_2.jpg
+2026-03-10 23:49:26,350 - daily_runner - INFO - Adjusted last scene duration by 7.92s to match narration. Last scene: 4.00s -> 11.92s | Scenes total was 13.00s, narration is 20.92s
+2026-03-10 23:49:26,378 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-10 23:49:26,381 - daily_runner - INFO - SFX events selected: 1
+2026-03-10 23:49:26,382 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-10 23:50:52,261 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T008.mp4
+2026-03-10 23:50:52,476 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-10_T008_thumb.png
+2026-03-10 23:50:52,972 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-10 23:50:52,973 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-10_T008",
+  "topic_id": "T008",
+  "title": "\u0915\u093f\u0938\u094d\u0924\u093e\u0915\u094b \u091a\u093f\u0928\u094d\u0924\u093e...\ud83d\ude14",
+  "publish_at": "2026-03-10T18:23:19.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-10T23:50:52.973441"
+}
+2026-03-10 23:50:52,976 - daily_runner - INFO - Starting pipeline for 2026-03-10_T009
+2026-03-10 23:50:52,976 - daily_runner - INFO - Generating story for topic: T009
+2026-03-10 23:51:03,111 - daily_runner - INFO - Story generated successfully.
+2026-03-10 23:51:03,112 - daily_runner - INFO - Generating voice for text length: 210
+2026-03-10 23:51:14,645 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T009_narration.mp3
+2026-03-10 23:51:14,647 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T009_narration.json
+2026-03-10 23:51:14,648 - daily_runner - INFO - [WorkerAI] Generating image: Cracked piggy bank and scattered coins on a modern desk, wit
+2026-03-10 23:51:27,344 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-10_T009_scene_0.jpg
+2026-03-10 23:51:27,346 - daily_runner - INFO - [WorkerAI] Generating image: Close-up of a bank passbook or a generic digital banking int
+2026-03-11 00:03:15,089 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-11 00:03:20,245 - daily_runner - INFO - Starting Daily Run
+2026-03-11 00:03:20,248 - daily_runner - INFO - Starting pipeline for 2026-03-11_T011
+2026-03-11 00:03:20,249 - daily_runner - INFO - Generating story for topic: T011
+2026-03-11 00:03:30,001 - daily_runner - INFO - Story generated successfully.
+2026-03-11 00:03:30,002 - daily_runner - INFO - Generating voice for text length: 128
+2026-03-11 00:03:39,702 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T011_narration.mp3
+2026-03-11 00:03:39,704 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T011_narration.json
+2026-03-11 00:03:39,742 - daily_runner - INFO - [WorkerAI] Generating image: A close-up shot of an unpaid bill on a desk, next to a small
+2026-03-11 00:04:02,285 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T011_scene_0.jpg
+2026-03-11 00:04:02,287 - daily_runner - INFO - [WorkerAI] Generating image: An overhead shot of a clean modern workspace, with organized
+2026-03-11 00:04:14,698 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T011_scene_1.jpg
+2026-03-11 00:04:14,700 - daily_runner - INFO - [WorkerAI] Generating image: A small, polished key resting on a simple, uncluttered desk.
+2026-03-11 00:04:27,602 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T011_scene_2.jpg
+2026-03-11 00:04:27,690 - daily_runner - INFO - Adjusted last scene duration by 1.21s to match narration. Last scene: 4.50s -> 5.71s | Scenes total was 13.00s, narration is 14.21s
+2026-03-11 00:04:27,717 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-11 00:04:27,720 - daily_runner - INFO - SFX events selected: 3
+2026-03-11 00:04:27,721 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-11 00:05:11,946 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-11_T011.mp4
+2026-03-11 00:05:12,167 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-11_T011_thumb.png
+2026-03-11 00:05:12,469 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-11 00:05:12,470 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-11_T011",
+  "topic_id": "T011",
+  "title": "\u092c\u091a\u0924\u0915\u094b \u0936\u0915\u094d\u0924\u093f...\ud83d\udcb0 \u092d\u0935\u093f\u0937\u094d\u092f\u0915\u094b \u091a\u093f\u0928\u094d\u0924\u093e \u0915\u092e! \ud83d\ude0c",
+  "publish_at": "2026-03-11T10:00:00.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-11T00:05:12.470342"
+}
+2026-03-11 00:05:12,473 - daily_runner - INFO - Starting pipeline for 2026-03-11_T012
+2026-03-11 00:05:12,474 - daily_runner - INFO - Generating story for topic: T012
+2026-03-11 22:15:11,747 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-11 22:15:30,549 - daily_runner - INFO - Starting Daily Run
+2026-03-11 22:15:30,581 - daily_runner - INFO - Starting pipeline for 2026-03-11_T014
+2026-03-11 22:15:30,582 - daily_runner - INFO - Generating story for topic: T014
+2026-03-11 22:15:43,911 - daily_runner - INFO - Story generated successfully.
+2026-03-11 22:15:43,912 - daily_runner - INFO - Generating voice for text length: 564
+2026-03-11 22:16:25,227 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_narration.mp3
+2026-03-11 22:16:25,232 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_narration.json
+2026-03-11 22:16:25,269 - daily_runner - INFO - [WorkerAI] Generating image: Symbolic financial object: a calculator with a stack of unpa
+2026-03-11 22:16:38,915 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_scene_0.jpg
+2026-03-11 22:16:38,955 - daily_runner - INFO - [WorkerAI] Generating image: Symbolic financial object: a close-up on a stack of diverse 
+2026-03-11 22:16:52,465 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_scene_1.jpg
+2026-03-11 22:16:52,467 - daily_runner - INFO - [WorkerAI] Generating image: Economic atmosphere: a clean, modern office workspace. A par
+2026-03-11 22:17:06,868 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_scene_2.jpg
+2026-03-11 22:17:06,870 - daily_runner - INFO - [WorkerAI] Generating image: Symbolic financial objects: a juxtaposed image. One side sho
+2026-03-11 22:17:19,129 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-11_T014_scene_3.jpg
+2026-03-11 22:17:19,775 - daily_runner - INFO - Adjusted last scene duration by 21.64s to match narration. Last scene: 5.00s -> 26.64s | Scenes total was 20.00s, narration is 41.64s
+2026-03-11 22:17:19,812 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-11 22:17:19,818 - daily_runner - INFO - SFX events selected: 3
+2026-03-11 22:17:19,820 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-11 22:21:02,167 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-11_T014.mp4
+2026-03-11 22:21:02,368 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-11_T014_thumb.png
+2026-03-11 22:21:02,596 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-11 22:21:02,597 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-11_T014",
+  "topic_id": "T014",
+  "title": "\u0924\u0932\u092c \u0906\u092f\u094b, \u0916\u0930\u094d\u091a\u0915\u094b \u0938\u0942\u091a\u0940... \ud83d\ude25\ud83e\uddfe",
+  "publish_at": "2026-03-11T16:50:30.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-11T22:21:02.597293"
+}
+2026-03-11 22:21:02,600 - daily_runner - INFO - Starting pipeline for 2026-03-11_T015
+2026-03-11 22:21:02,601 - daily_runner - INFO - Generating story for topic: T015
+2026-03-12 21:27:57,510 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-12 21:28:08,830 - daily_runner - INFO - Starting Daily Run
+2026-03-12 21:28:08,869 - daily_runner - INFO - Starting pipeline for 2026-03-12_T017
+2026-03-12 21:28:08,870 - daily_runner - INFO - Generating story for topic: T017
+2026-03-12 21:28:19,675 - daily_runner - INFO - Story generated successfully.
+2026-03-12 21:28:19,676 - daily_runner - INFO - Generating voice for text length: 460
+2026-03-12 21:28:41,699 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_narration.mp3
+2026-03-12 21:28:41,701 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_narration.json
+2026-03-12 21:28:41,703 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank with coins spilling out, set on a desk 
+2026-03-12 21:28:56,046 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_scene_0.jpg
+2026-03-12 21:28:56,048 - daily_runner - INFO - [WorkerAI] Generating image: A calculator displaying a negative number, placed next to a 
+2026-03-12 21:29:07,898 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_scene_1.jpg
+2026-03-12 21:29:07,900 - daily_runner - INFO - [WorkerAI] Generating image: Piles of generic, blurred 'unpaid bills' scattered on a tabl
+2026-03-12 21:29:18,391 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_scene_2.jpg
+2026-03-12 21:29:18,392 - daily_runner - INFO - [WorkerAI] Generating image: A partial silhouette of a person (back view) looking at a dy
+2026-03-12 21:29:30,677 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-12_T017_scene_3.jpg
+2026-03-12 21:29:31,064 - daily_runner - INFO - Adjusted last scene duration by 16.29s to match narration. Last scene: 4.50s -> 20.79s | Scenes total was 16.00s, narration is 32.29s
+2026-03-12 21:29:31,085 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-12 21:29:31,090 - daily_runner - INFO - SFX events selected: 8
+2026-03-12 21:29:31,091 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-12 21:31:50,109 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-12_T017.mp4
+2026-03-12 21:31:50,317 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-12_T017_thumb.png
+2026-03-12 21:31:50,586 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-12 21:31:50,587 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-12_T017",
+  "topic_id": "T017",
+  "title": "\u092e\u0947\u0930\u094b \u092a\u0948\u0938\u093e \u0918\u091f\u094d\u0926\u0948\u091b! \ud83d\udcc9\ud83d\udc94",
+  "publish_at": "2026-03-12T16:03:08.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-12T21:31:50.587578"
+}
+2026-03-12 21:31:50,595 - daily_runner - INFO - Starting pipeline for 2026-03-12_T018
+2026-03-12 21:31:50,601 - daily_runner - INFO - Generating story for topic: T018
+2026-03-13 16:37:18,620 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-13 16:37:31,968 - daily_runner - INFO - Starting Daily Run
+2026-03-13 16:37:31,996 - daily_runner - INFO - Starting pipeline for 2026-03-13_T003
+2026-03-13 16:37:31,997 - daily_runner - INFO - Generating story for topic: T003
+2026-03-13 16:37:43,554 - daily_runner - INFO - Story generated successfully.
+2026-03-13 16:37:43,555 - daily_runner - INFO - Generating voice for text length: 353
+2026-03-13 16:38:00,792 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_narration.mp3
+2026-03-13 16:38:00,795 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_narration.json
+2026-03-13 16:38:00,834 - daily_runner - INFO - [WorkerAI] Generating image: Declining financial chart on a computer screen in a soft day
+2026-03-13 16:38:18,652 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_scene_0.jpg
+2026-03-13 16:38:18,692 - daily_runner - INFO - [WorkerAI] Generating image: Pile of unpaid bills on a clean modern workspace desk. A sub
+2026-03-13 16:38:31,748 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_scene_1.jpg
+2026-03-13 16:38:31,750 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank on a desk, with some coins scattered ar
+2026-03-13 16:38:44,981 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_scene_2.jpg
+2026-03-13 16:38:44,983 - daily_runner - INFO - [WorkerAI] Generating image: A hand (partial silhouette, back view) gently placing a coin
+2026-03-13 16:38:55,786 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T003_scene_3.jpg
+2026-03-13 16:38:57,077 - daily_runner - INFO - Adjusted last scene duration by 9.19s to match narration. Last scene: 5.50s -> 14.69s | Scenes total was 19.00s, narration is 28.19s
+2026-03-13 16:38:57,101 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-13 16:38:57,106 - daily_runner - INFO - SFX events selected: 2
+2026-03-13 16:38:57,107 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-13 16:40:56,424 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T003.mp4
+2026-03-13 16:40:56,668 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T003_thumb.png
+2026-03-13 16:40:57,020 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-13 16:40:57,021 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-13_T003",
+  "topic_id": "T003",
+  "title": "\u0938\u092a\u0928\u093e... \u090b\u0923\u0915\u094b \u092c\u094b\u091d...? \ud83d\ude25",
+  "publish_at": "2026-03-13T11:12:31.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "Upload failed",
+  "timestamp": "2026-03-13T16:40:57.021577"
+}
+2026-03-13 16:40:57,027 - daily_runner - INFO - Starting pipeline for 2026-03-13_T004
+2026-03-13 16:40:57,028 - daily_runner - INFO - Generating story for topic: T004
+2026-03-13 17:19:51,992 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-13 17:19:57,090 - daily_runner - INFO - Starting Daily Run
+2026-03-13 17:19:57,098 - daily_runner - INFO - Starting pipeline for 2026-03-13_T006
+2026-03-13 17:19:57,099 - daily_runner - INFO - Generating story for topic: T006
+2026-03-13 17:20:06,947 - daily_runner - INFO - Story generated successfully.
+2026-03-13 17:20:06,948 - daily_runner - INFO - Generating voice for text length: 361
+2026-03-13 17:20:23,657 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_narration.mp3
+2026-03-13 17:20:23,661 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_narration.json
+2026-03-13 17:20:23,664 - daily_runner - INFO - [WorkerAI] Generating image: News headlines about Bitcoin's rise, a calculator with big n
+2026-03-13 17:20:36,454 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_scene_0.jpg
+2026-03-13 17:20:36,456 - daily_runner - INFO - [WorkerAI] Generating image: A person's partial silhouette, hesitantly placing a house ke
+2026-03-13 17:20:47,403 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_scene_1.jpg
+2026-03-13 17:20:47,405 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank, broken into pieces, with coins scatter
+2026-03-13 17:20:59,300 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_scene_2.jpg
+2026-03-13 17:20:59,301 - daily_runner - INFO - [WorkerAI] Generating image: A lone partial silhouette, back turned, looking out a window
+2026-03-13 17:21:13,053 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T006_scene_3.jpg
+2026-03-13 17:21:13,189 - daily_runner - INFO - Adjusted last scene duration by 8.12s to match narration. Last scene: 5.00s -> 13.12s | Scenes total was 18.00s, narration is 26.12s
+2026-03-13 17:21:13,219 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-13 17:21:13,225 - daily_runner - INFO - SFX events selected: 5
+2026-03-13 17:21:13,226 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-13 17:22:51,553 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T006.mp4
+2026-03-13 17:22:51,759 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T006_thumb.png
+2026-03-13 17:22:52,065 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-13 17:22:52,066 - daily_runner - ERROR - No Facebook Page ID found.
+2026-03-13 17:22:52,066 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-13_T006",
+  "topic_id": "T006",
+  "title": "\u0915\u094d\u0930\u093f\u092a\u094d\u091f\u094b\u0915\u094b \u0932\u094b\u092d... \u0938\u092c\u0948 \u0921\u0941\u092c\u094d\u092f\u094b \ud83d\udcb8\ud83d\ude2d",
+  "publish_at": "2026-03-13T11:54:57.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "YouTube and Facebook upload both failed",
+  "timestamp": "2026-03-13T17:22:52.066666"
+}
+2026-03-13 17:22:52,074 - daily_runner - INFO - Starting pipeline for 2026-03-13_T007
+2026-03-13 17:22:52,076 - daily_runner - INFO - Generating story for topic: T007
+2026-03-13 17:30:53,736 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-13 17:30:56,957 - daily_runner - INFO - Starting Daily Run
+2026-03-13 17:30:56,961 - daily_runner - INFO - Starting pipeline for 2026-03-13_T009
+2026-03-13 17:30:56,961 - daily_runner - INFO - Generating story for topic: T009
+2026-03-13 17:31:05,640 - daily_runner - INFO - Story generated successfully.
+2026-03-13 17:31:05,640 - daily_runner - INFO - Generating voice for text length: 349
+2026-03-13 17:31:21,803 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T009_narration.mp3
+2026-03-13 17:31:21,806 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T009_narration.json
+2026-03-13 17:31:21,808 - daily_runner - INFO - [WorkerAI] Generating image: Soft daylight office, modern workspace. Focus on a stack of 
+2026-03-13 17:31:33,690 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T009_scene_0.jpg
+2026-03-13 17:31:33,692 - daily_runner - INFO - [WorkerAI] Generating image: Clean modern workspace with morning sunlight through a windo
+2026-03-13 17:31:45,317 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T009_scene_1.jpg
+2026-03-13 17:31:45,319 - daily_runner - INFO - [WorkerAI] Generating image: Bright city skyline view from an office window. A subtle upw
+2026-03-13 17:31:57,438 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T009_scene_2.jpg
+2026-03-13 17:31:57,509 - daily_runner - INFO - Adjusted last scene duration by 10.77s to match narration. Last scene: 5.00s -> 15.77s | Scenes total was 13.50s, narration is 24.27s
+2026-03-13 17:31:57,531 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-13 17:31:57,534 - daily_runner - INFO - SFX events selected: 5
+2026-03-13 17:31:57,534 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-13 17:33:33,311 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T009.mp4
+2026-03-13 17:33:33,512 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T009_thumb.png
+2026-03-13 17:33:33,773 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-13 17:33:33,775 - daily_runner - INFO - Uploading to Facebook: रातभर जाग्राम... शून्य कमाईको डर... 🥺💔
+2026-03-13 17:33:33,776 - daily_runner - INFO - Facebook scheduled time (UTC ISO input): 2026-03-13T12:05:56.000Z
+2026-03-13 17:33:34,401 - daily_runner - ERROR - Facebook API error during start: 400 | {'error': {'message': 'Error validating access token: Session has expired on Thursday, 12-Mar-26 22:00:00 PDT. The current time is Friday, 13-Mar-26 04:48:34 PDT.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 463, 'fbtrace_id': 'Afe1HWqs5e4r-qhqA2xrw6H'}}
+2026-03-13 17:33:34,402 - daily_runner - ERROR - Facebook upload failed: Facebook API error during start: 400 | {'error': {'message': 'Error validating access token: Session has expired on Thursday, 12-Mar-26 22:00:00 PDT. The current time is Friday, 13-Mar-26 04:48:34 PDT.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 463, 'fbtrace_id': 'Afe1HWqs5e4r-qhqA2xrw6H'}}
+2026-03-13 17:33:34,402 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-13_T009",
+  "topic_id": "T009",
+  "title": "\u0930\u093e\u0924\u092d\u0930 \u091c\u093e\u0917\u094d\u0930\u093e\u092e... \u0936\u0942\u0928\u094d\u092f \u0915\u092e\u093e\u0908\u0915\u094b \u0921\u0930... \ud83e\udd7a\ud83d\udc94",
+  "publish_at": "2026-03-13T12:05:56.000Z",
+  "youtube_video_id": null,
+  "status": "FAILED",
+  "error": "YouTube and Facebook upload both failed",
+  "timestamp": "2026-03-13T17:33:34.402748"
+}
+2026-03-13 17:33:34,408 - daily_runner - INFO - Starting pipeline for 2026-03-13_T010
+2026-03-13 17:33:34,410 - daily_runner - INFO - Generating story for topic: T010
+2026-03-13 23:45:51,089 - daily_runner - WARNING - settings.yaml not found, checking settings.yaml.example or relying on env vars.
+2026-03-13 23:46:03,598 - daily_runner - INFO - Starting Daily Run
+2026-03-13 23:46:03,630 - daily_runner - INFO - Starting pipeline for 2026-03-13_T012
+2026-03-13 23:46:03,631 - daily_runner - INFO - Generating story for topic: T012
+2026-03-13 23:46:15,669 - daily_runner - INFO - Story generated successfully.
+2026-03-13 23:46:15,670 - daily_runner - INFO - Generating voice for text length: 357
+2026-03-13 23:46:38,052 - daily_runner - INFO - Audio saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_narration.mp3
+2026-03-13 23:46:38,055 - daily_runner - INFO - Word timeline saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_narration.json
+2026-03-13 23:46:38,057 - daily_runner - INFO - [WorkerAI] Generating image: A sleek, new smartphone on an advertisement, glowing subtly.
+2026-03-13 23:46:51,024 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_scene_0.jpg
+2026-03-13 23:46:51,064 - daily_runner - INFO - [WorkerAI] Generating image: A calculator displaying EMI figures next to a pile of unpaid
+2026-03-13 23:47:02,779 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_scene_1.jpg
+2026-03-13 23:47:02,780 - daily_runner - INFO - [WorkerAI] Generating image: A cracked piggy bank next to a declining financial chart on 
+2026-03-13 23:47:15,953 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_scene_2.jpg
+2026-03-13 23:47:15,956 - daily_runner - INFO - [WorkerAI] Generating image: A subtle upward trending financial chart on a clean monitor 
+2026-03-13 23:47:29,590 - daily_runner - INFO - [WorkerAI] Image saved → C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\2026-03-13_T012_scene_3.jpg
+2026-03-13 23:47:30,929 - daily_runner - INFO - Adjusted last scene duration by 12.00s to match narration. Last scene: 4.50s -> 16.50s | Scenes total was 17.00s, narration is 29.00s
+2026-03-13 23:47:30,949 - daily_runner - INFO - Typography ASS created: C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\temp\reel_typography.ass
+2026-03-13 23:47:30,954 - daily_runner - INFO - SFX events selected: 3
+2026-03-13 23:47:30,955 - daily_runner - INFO - Running FFmpeg render with ASS typography...
+2026-03-13 23:49:33,566 - daily_runner - INFO - Video assembled at C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T012.mp4
+2026-03-13 23:49:33,799 - daily_runner - INFO - Thumbnail saved to C:\Users\lilad\Desktop\FinanceAutomation\YoutubeStory\outputs\2026-03-13_T012_thumb.png
+2026-03-13 23:49:34,069 - daily_runner - ERROR - Failed to refresh token: ('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})
+2026-03-13 23:49:34,072 - daily_runner - INFO - Uploading to Facebook: नयाँ फोनको मोह, ऋणको बोझ! 😥💸
+2026-03-13 23:49:34,072 - daily_runner - INFO - Facebook scheduled time (UTC ISO input): 2026-03-13T18:21:03.000Z
+2026-03-13 23:49:38,516 - daily_runner - INFO - Facebook upload progress: next_start=1048576, next_end=6291456
+2026-03-13 23:49:41,621 - daily_runner - INFO - Facebook upload progress: next_start=6291456, next_end=7801139
+2026-03-13 23:49:43,976 - daily_runner - INFO - Facebook upload progress: next_start=7801139, next_end=7801139
+2026-03-13 23:49:51,440 - daily_runner - INFO - Facebook upload complete. Video ID: 715307124907647
+2026-03-13 23:49:51,441 - daily_runner - INFO - Report Entry Added: {
+  "story_id": "2026-03-13_T012",
+  "topic_id": "T012",
+  "title": "\u0928\u092f\u093e\u0901 \u092b\u094b\u0928\u0915\u094b \u092e\u094b\u0939, \u090b\u0923\u0915\u094b \u092c\u094b\u091d! \ud83d\ude25\ud83d\udcb8",
+  "publish_at": "2026-03-13T18:21:03.000Z",
+  "youtube_video_id": "YT:None | FB:715307124907647",
+  "status": "PARTIAL_SUCCESS",
+  "error": "One platform upload failed",
+  "timestamp": "2026-03-13T23:49:51.441564"
+}
+2026-03-13 23:49:51,482 - daily_runner - INFO - Starting pipeline for 2026-03-13_T013
+2026-03-13 23:49:51,483 - daily_runner - INFO - Generating story for topic: T013

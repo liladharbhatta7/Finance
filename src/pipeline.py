@@ -10,6 +10,7 @@ from src.elevenlabs_voice import voice_generator
 from src.video_ffmpeg import video_editor
 from src.thumbnail import thumbnail_generator
 from src.youtube_upload import youtube_uploader
+from src.facebook_upload import facebook_uploader
 from src.report import report_manager
 from src.utils_time import validate_schedule_time, npt_to_utc_iso
 
@@ -119,12 +120,43 @@ class VideoPipeline:
         description = f"{title}\n\n{story['narration_text'][:200]}...\n\n#shorts #nepali #story"
         tags = story.get("hashtags", []) + ["shorts", "nepali"]
         
-        video_id = youtube_uploader.upload_video(str(video_path), title, description, tags, utc_publish_time)
-        
-        if video_id:
-            report_manager.add_entry(story_id, topic_id, title, str(schedule_time_npt), video_id, "SUCCESS")
+        yt_video_id = youtube_uploader.upload_video(
+            str(video_path),
+            title,
+            description,
+            tags,
+            utc_publish_time
+        )
+
+        fb_video_id = facebook_uploader.upload_video(
+            str(video_path),
+            title,
+            description,
+            tags,
+            utc_publish_time
+        )
+
+        if yt_video_id or fb_video_id:
+            combined_ids = f"YT:{yt_video_id or 'None'} | FB:{fb_video_id or 'None'}"
+            report_manager.add_entry(
+                story_id,
+                topic_id,
+                title,
+                str(schedule_time_npt),
+                combined_ids,
+                "SUCCESS" if yt_video_id else "PARTIAL_SUCCESS",
+                None if yt_video_id and fb_video_id else "One platform upload failed"
+            )
         else:
-             report_manager.add_entry(story_id, topic_id, title, str(schedule_time_npt), None, "FAILED", "Upload failed")
+            report_manager.add_entry(
+                story_id,
+                topic_id,
+                title,
+                str(schedule_time_npt),
+                None,
+                "FAILED",
+                "YouTube and Facebook upload both failed"
+            )
 
         # Cleanup
         self._cleanup(story_id)
