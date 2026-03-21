@@ -1,5 +1,5 @@
-from src.upload_youtube import youtube_uploader
-from src.upload_facebook import facebook_uploader
+from src.youtube_upload import youtube_uploader
+from src.facebook_upload import facebook_uploader
 
 # Use the small test video
 video_path = "src/test_assets/test_video.mp4"
