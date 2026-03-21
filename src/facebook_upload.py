@@ -20,6 +20,11 @@ class FacebookUploader:
         self.graph_api_version = getattr(config, "facebook_graph_api_version", "v25.0")
         self.base_url = f"https://graph-video.facebook.com/{self.graph_api_version}"
 
+        # Safe defaults; kept internal so current pipeline does not need changes.
+        self.finish_retry_count = 2
+        self.finish_retry_sleep_seconds = 5
+        self.fallback_to_immediate_publish = True
+
     def _validate_config(self):
         if not self.page_id:
             logger.error("No Facebook Page ID found.")
@@ -142,12 +147,8 @@ class FacebookUploader:
 
                 logger.info(f"Facebook upload progress: next_start={start_offset}, next_end={end_offset}")
 
-    def _finish_upload(self, upload_session_id, title, description, publish_at_iso):
+    def _finish_upload(self, upload_session_id, title, description, publish_at_iso, immediate=False):
         url = f"{self.base_url}/{self.page_id}/videos"
-
-        scheduled_publish_time = self._safe_scheduled_publish_time(publish_at_iso)
-        if scheduled_publish_time is None:
-            raise Exception("Could not parse publish_at_iso.")
 
         data = {
             "access_token": self.page_access_token,
@@ -155,14 +156,77 @@ class FacebookUploader:
             "upload_session_id": upload_session_id,
             "title": (title or "")[:255],
             "description": (description or "")[:10000],
-            "published": "false",
-            "scheduled_publish_time": str(scheduled_publish_time),
         }
+
+        if immediate or not publish_at_iso:
+            data["published"] = "true"
+            logger.info("Facebook finish mode: immediate publish")
+        else:
+            scheduled_publish_time = self._safe_scheduled_publish_time(publish_at_iso)
+            if scheduled_publish_time is None:
+                raise Exception("Could not parse publish_at_iso.")
+
+            data["published"] = "false"
+            data["scheduled_publish_time"] = str(scheduled_publish_time)
+            logger.info(f"Facebook finish mode: scheduled publish at unix={scheduled_publish_time}")
 
         response = requests.post(url, data=data, timeout=120)
         self._raise_for_response(response, "finish")
 
         return response.json()
+
+    def _finish_with_retry_or_fallback(self, upload_session_id, title, description, publish_at_iso):
+        last_error = None
+
+        # First try scheduled mode if schedule exists
+        if publish_at_iso:
+            attempts = self.finish_retry_count + 1
+            for attempt in range(1, attempts + 1):
+                try:
+                    logger.info(f"Facebook scheduled finish attempt {attempt}/{attempts}")
+                    return self._finish_upload(
+                        upload_session_id=upload_session_id,
+                        title=title,
+                        description=description,
+                        publish_at_iso=publish_at_iso,
+                        immediate=False,
+                    )
+                except Exception as e:
+                    last_error = e
+                    if attempt < attempts:
+                        sleep_for = self.finish_retry_sleep_seconds * attempt
+                        logger.warning(
+                            f"Facebook scheduled finish attempt {attempt} failed. "
+                            f"Retrying in {sleep_for}s. Error: {e}"
+                        )
+                        time.sleep(sleep_for)
+                    else:
+                        logger.warning(
+                            "Facebook scheduled upload failed after retries."
+                        )
+
+            if self.fallback_to_immediate_publish:
+                logger.warning(
+                    "Falling back to immediate Facebook publish because scheduled finish failed."
+                )
+                return self._finish_upload(
+                    upload_session_id=upload_session_id,
+                    title=title,
+                    description=description,
+                    publish_at_iso=None,
+                    immediate=True,
+                )
+
+            raise last_error
+
+        # No schedule provided -> publish immediately
+        return self._finish_upload(
+            upload_session_id=upload_session_id,
+            title=title,
+            description=description,
+            publish_at_iso=None,
+            immediate=True,
+        )
 
     def upload_video(self, video_path, title, description, tags, publish_at_iso):
         if not self._validate_config():
@@ -187,7 +251,7 @@ class FacebookUploader:
                 end_offset=session["end_offset"],
             )
 
-            finish_payload = self._finish_upload(
+            finish_payload = self._finish_with_retry_or_fallback(
                 upload_session_id=session["upload_session_id"],
                 title=title,
                 description=final_description,
