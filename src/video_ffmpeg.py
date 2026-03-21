@@ -229,7 +229,7 @@ class VideoEditor:
                 "-c:v",
                 "libx264",
                 "-preset",
-                "veryfast",
+                "medium",
                 "-crf",
                 "20",
                 "-pix_fmt",
