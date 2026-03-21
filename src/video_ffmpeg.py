@@ -20,6 +20,11 @@ class VideoEditor:
             logger.error("No scenes provided to assemble_video.")
             return False
 
+        narration_duration = self._get_audio_duration(audio_path)
+        if narration_duration is None or narration_duration <= 0:
+            logger.error("Could not read narration duration.")
+            return False
+
         timeline_data = timeline_builder.build(scenes, audio_path=audio_path)
         timeline_scenes = timeline_data["scenes"]
 
@@ -56,22 +61,30 @@ class VideoEditor:
                 logger.error(f"Scene image missing: {image_path}")
                 return False
 
-            inputs.extend(["-loop", "1", "-t", str(duration), "-i", image_path])
+            # IMPORTANT:
+            # Do NOT use "-loop 1 -t duration" here together with zoompan=d=frames.
+            # A single image input is enough; zoompan will generate the exact frame count.
+            inputs.extend(["-i", image_path])
 
             img_idx = current_input_idx
             current_input_idx += 1
 
-            frames = max(1, int(duration * self.fps))
+            frames = max(1, int(round(duration * self.fps)))
 
             x_expr = "iw/2-(iw/zoom/2)" if idx % 2 == 0 else "iw/2-(iw/zoom/2)-40"
 
-            # Optimized scaling (no 4K processing)
             filter_complex.append(
                 f"[{img_idx}:v]"
                 f"scale=1080:-1,"
-                f"zoompan=z='min(zoom+0.0016,1.45)':d={frames}:"
-                f"x='{x_expr}':y='ih/2-(ih/zoom/2)':s=1080x1920,"
-                f"setsar=1,fps={self.fps}"
+                f"zoompan="
+                f"z='min(zoom+0.0016,1.45)':"
+                f"d={frames}:"
+                f"x='{x_expr}':"
+                f"y='ih/2-(ih/zoom/2)':"
+                f"s=1080x1920:fps={self.fps},"
+                f"setsar=1,"
+                f"trim=duration={duration},"
+                f"setpts=PTS-STARTPTS"
                 f"[v{idx}_bg]"
             )
 
@@ -112,13 +125,15 @@ class VideoEditor:
 
             final_video_label = prev_label
 
-        # Burn ASS subtitles
+        # Burn ASS subtitles, then hard-trim final video to narration duration
         ass_path_ff = self._ffmpeg_path(ass_path)
         fonts_dir_ff = self._ffmpeg_path(text_renderer.font_dir)
 
         filter_complex.append(
             f"{final_video_label}"
-            f"ass='{ass_path_ff}':fontsdir='{fonts_dir_ff}':shaping=complex"
+            f"ass='{ass_path_ff}':fontsdir='{fonts_dir_ff}':shaping=complex,"
+            f"trim=duration={narration_duration},"
+            f"setpts=PTS-STARTPTS"
             f"[v_final]"
         )
 
@@ -146,20 +161,29 @@ class VideoEditor:
 
         audio_labels = []
 
+        # Narration is the master length reference
         filter_complex.append(
-            "[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[a_narr]"
+            f"[0:a]"
+            f"aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,"
+            f"atrim=duration={narration_duration},"
+            f"asetpts=PTS-STARTPTS"
+            f"[a_narr]"
         )
         audio_labels.append("[a_narr]")
 
         if has_bgm:
+            # Explicitly cut BGM to narration duration first
             filter_complex.append(
-                "[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,"
-                "volume=0.08,aloop=loop=-1:size=2147483647[a_bgm]"
+                f"[1:a]"
+                f"aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,"
+                f"volume=0.08,"
+                f"atrim=duration={narration_duration},"
+                f"asetpts=PTS-STARTPTS"
+                f"[a_bgm]"
             )
             audio_labels.append("[a_bgm]")
 
         for i, meta in enumerate(sfx_input_meta):
-
             delay_ms = int(meta["time"] * 1000)
             inp = meta["input_idx"]
             volume = meta["volume"]
@@ -167,7 +191,10 @@ class VideoEditor:
             filter_complex.append(
                 f"[{inp}:a]"
                 f"aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,"
-                f"volume={volume},adelay={delay_ms}|{delay_ms}"
+                f"volume={volume},"
+                f"adelay={delay_ms}|{delay_ms},"
+                f"atrim=duration={narration_duration},"
+                f"asetpts=PTS-STARTPTS"
                 f"[a_sfx_{i}]"
             )
 
@@ -179,13 +206,16 @@ class VideoEditor:
             mix_inputs = "".join(audio_labels)
 
             filter_complex.append(
-                f"{mix_inputs}amix=inputs={len(audio_labels)}:"
-                f"duration=first:dropout_transition=2[a_final]"
+                f"{mix_inputs}"
+                f"amix=inputs={len(audio_labels)}:duration=first:dropout_transition=2,"
+                f"atrim=duration={narration_duration},"
+                f"asetpts=PTS-STARTPTS"
+                f"[a_final]"
             )
 
             final_audio_label = "[a_final]"
 
-        # FFmpeg command (optimized)
+        # FFmpeg command
         cmd = (
             ["ffmpeg", "-y", "-threads", "2"]
             + inputs
@@ -210,11 +240,14 @@ class VideoEditor:
                 "aac",
                 "-b:a",
                 "192k",
+                "-t",
+                str(narration_duration),
                 "-shortest",
                 output_path,
             ]
         )
 
+        logger.info(f"Narration duration: {narration_duration:.2f}s")
         logger.info("Running FFmpeg render with ASS typography...")
 
         try:
@@ -225,6 +258,33 @@ class VideoEditor:
         except subprocess.CalledProcessError as e:
             logger.error(f"FFmpeg failed: {str(e)}")
             return False
+
+    def _get_audio_duration(self, audio_path):
+        if not audio_path or not os.path.exists(audio_path):
+            return None
+
+        cmd = [
+            "ffprobe",
+            "-v",
+            "error",
+            "-show_entries",
+            "format=duration",
+            "-of",
+            "default=noprint_wrappers=1:nokey=1",
+            audio_path,
+        ]
+
+        try:
+            result = subprocess.run(
+                cmd,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            return float(result.stdout.strip())
+        except Exception as e:
+            logger.error(f"Could not get audio duration via ffprobe: {e}")
+            return None
 
     def _ffmpeg_path(self, path):
         s = str(path).replace("\\", "/")
