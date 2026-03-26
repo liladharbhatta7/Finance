@@ -65,7 +65,7 @@ Style: Warning,{self.font_family},108,{white},{white},{black},{soft_bg},-1,0,0,0
 Style: Question,{self.font_family},106,{white},{white},{black},{soft_bg},-1,0,0,0,100,100,0,0,1,6,0,5,60,60,125,1
 
 [Events]
-Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
 """
 
         events = []
@@ -134,19 +134,19 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         events = []
 
         # subtle grid overlay in all packs
-        events.append(self._grid_overlay(0.0, total_end))
+        events.extend(self._grid_overlay(0.0, total_end))
 
         # different pack-level motion look
         if style_pack == "market":
-            events.append(self._bottom_ticker_bars(0.0, total_end, "&H24FFFFFF"))
-            events.append(self._top_progress_bar(0.0, total_end, "&H2033CCFF"))
+            events.extend(self._bottom_ticker_bars(0.0, total_end, "&H24FFFFFF"))
+            events.extend(self._top_progress_bar(0.0, total_end, "&H2033CCFF"))
         elif style_pack == "alert":
-            events.append(self._top_progress_bar(0.0, total_end, "&H202A5BFF"))
+            events.extend(self._top_progress_bar(0.0, total_end, "&H202A5BFF"))
         elif style_pack == "premium":
-            events.append(self._top_progress_bar(0.0, total_end, "&H1848D76A"))
+            events.extend(self._top_progress_bar(0.0, total_end, "&H1848D76A"))
         elif style_pack == "data":
-            events.append(self._bottom_ticker_bars(0.0, total_end, "&H20F0E060"))
-            events.append(self._top_progress_bar(0.0, total_end, "&H2033CCFF"))
+            events.extend(self._bottom_ticker_bars(0.0, total_end, "&H20F0E060"))
+            events.extend(self._top_progress_bar(0.0, total_end, "&H2033CCFF"))
 
         return events
 
@@ -185,7 +185,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             events.append(self._comparison_divider(start, end, accent))
 
         if "रु" in text or "पैसा" in text or "ब्याज" in text or "profit" in text.lower() or "loss" in text.lower():
-            events.append(self._rupee_badge(start, min(end, start + 0.8), green))
+            events.extend(self._rupee_badge(start, min(end, start + 0.8), green))
 
         return events
 
@@ -289,7 +289,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0\move(-840,0,0,0)}}"
             "m 90 66 l 820 66 820 82 90 82"
         )
-        return self._dialogue(start, end, "Clean", bg) + "\n" + self._dialogue(start, end, "Clean", fill)
+        return [self._dialogue(start, end, "Clean", bg), self._dialogue(start, end, "Clean", fill)]
 
     def _bottom_ticker_bars(self, start, end, color):
         bars = []
@@ -360,12 +360,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H26&\bord0\shad0\fad(40,80)}}"
             "m 84 164 l 154 164 154 234 84 234"
         )
-        # only one rupee symbol, no extra small text
         label = (
             r"{\an7\pos(104,179)\fs44\bord2\shad0\1c&H00FFFFFF&\3c&H00000000&\t(0,120,\fscx110\fscy110)}"
             "रु"
         )
-        return self._dialogue(start, end, "Clean", bg) + "\n" + self._dialogue(start, end, "Clean", label)
+        return [self._dialogue(start, end, "Clean", bg), self._dialogue(start, end, "Clean", label)]
 
     def _dialogue(self, start, end, style, text):
         return f"Dialogue: 0,{self._to_ass_time(start)},{self._to_ass_time(end)},{style},,0,0,0,,{text}"
