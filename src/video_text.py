@@ -118,7 +118,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
                     block["start"],
                     block["end"],
                     style_name,
-                    f"{{{pos_tag}{intro}{scale}{extra}}}{line}"
+                    "{" + f"{pos_tag}{intro}{scale}{extra}" + "}" + line
                 )
             )
 
