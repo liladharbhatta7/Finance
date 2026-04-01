@@ -65,7 +65,7 @@ Style: Warning,{self.font_family},108,{white},{white},{black},{soft_bg},-1,0,0,0
 Style: Question,{self.font_family},106,{white},{white},{black},{soft_bg},-1,0,0,0,100,100,0,0,1,6,0,5,60,60,125,1
 
 [Events]
-Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 
         events = []
@@ -113,12 +113,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
             # New background motion graphics only
             events.extend(self._block_motion_events(block, style_pack, accent, red, green, cyan))
 
+            # FIX: build override tag with string concat to avoid f-string brace collision
+            override = "{" + f"{pos_tag}{intro}{scale}{extra}" + "}"
             events.append(
                 self._dialogue(
                     block["start"],
                     block["end"],
                     style_name,
-                    "{" + f"{pos_tag}{intro}{scale}{extra}" + "}" + line
+                    override + line
                 )
             )
 
@@ -236,7 +238,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
 
         def repl(match):
             word = self._ass_escape(match.group(0))
-            return f"{{\\1c{accent}\\bord7\\blur0.35}}{word}{{\\1c{white}\\bord6\\blur0.25}}"
+            # FIX: string concat instead of f-string brace collision
+            return "{\\1c" + accent + "\\bord7\\blur0.35}" + word + "{\\1c" + white + "\\bord6\\blur0.25}"
 
         return pattern.sub(repl, text, count=1)
 
@@ -258,9 +261,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
             color = "&H00000000&"
             alpha = "&H88"
 
+        # FIX: string concat instead of rf"{{...{color}...{alpha}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a{alpha}\bord0\shad0\fad(60,140)}}"
-            f"m 0 0 l {self.width} 0 {self.width} {self.height} 0 {self.height}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a" + alpha + r"\bord0\shad0\fad(60,140)}"
+            + f"m 0 0 l {self.width} 0 {self.width} {self.height} 0 {self.height}"
         )
         return self._dialogue(start, end, "Full", draw)
 
@@ -269,14 +273,15 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
     # ---------------------------
 
     def _grid_overlay(self, start, end):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         color = "&H180F1722&"
         lines = [
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 120 0 l 122 0 122 {self.height} 120 {self.height}",
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 360 0 l 362 0 362 {self.height} 360 {self.height}",
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 720 0 l 722 0 722 {self.height} 720 {self.height}",
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 0 450 l {self.width} 450 {self.width} 452 0 452",
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 0 980 l {self.width} 980 {self.width} 982 0 982",
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0}}m 0 1530 l {self.width} 1530 {self.width} 1532 0 1532",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 120 0 l 122 0 122 {self.height} 120 {self.height}",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 360 0 l 362 0 362 {self.height} 360 {self.height}",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 720 0 l 722 0 722 {self.height} 720 {self.height}",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 0 450 l {self.width} 450 {self.width} 452 0 452",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 0 980 l {self.width} 980 {self.width} 982 0 982",
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0}" + f"m 0 1530 l {self.width} 1530 {self.width} 1532 0 1532",
         ]
         return [self._dialogue(start, end, "Clean", line) for line in lines]
 
@@ -285,8 +290,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
             r"{\an7\pos(0,0)\p1\1c&H22000000&\bord0\shad0}"
             "m 90 66 l 990 66 990 82 90 82"
         )
+        # FIX: string concat instead of rf"{{...{color}...}}"
         fill = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\bord0\shad0\move(-840,0,0,0)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\bord0\shad0\move(-840,0,0,0)}"
             "m 90 66 l 820 66 820 82 90 82"
         )
         return [self._dialogue(start, end, "Clean", bg), self._dialogue(start, end, "Clean", fill)]
@@ -297,67 +303,75 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
         widths = [90, 150, 110, 200, 130, 170]
         x = 40
         for w in widths:
-            bars.append(
-                rf"{{\an7\move({x+300},0,{x-120},0)\p1\1c{color}\bord0\shad0}}m {x} {y} l {x+w} {y} {x+w} {y+18} {x} {y+18}"
-            )
+            # FIX: string concat instead of rf"{{...{color}...}}"
+            tag = "{" + f"\\an7\\move({x+300},0,{x-120},0)\\p1\\1c{color}\\bord0\\shad0" + "}"
+            bars.append(tag + f"m {x} {y} l {x+w} {y} {x+w} {y+18} {x} {y+18}")
             x += w + 24
         return [self._dialogue(start, end, "Clean", b) for b in bars]
 
     def _arrow_sweep(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\move(-220,565,1260,565)\p1\1c{color}\1a&H38&\bord0\shad0\fad(40,80)}}"
+            r"{\an7\move(-220,565,1260,565)\p1\1c" + color + r"\1a&H38&\bord0\shad0\fad(40,80)}"
             "m 0 0 l 240 0 240 14 0 14 "
             "m 222 -24 l 280 7 222 38"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _rising_line_chart(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H22&\bord2\3c&H00000000&\shad0\fad(50,120)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H22&\bord2\3c&H00000000&\shad0\fad(50,120)}"
             "m 128 1450 l 300 1412 472 1428 650 1350 882 1268 "
             "m 854 1242 l 905 1260 874 1300"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _falling_line_chart(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H20&\bord2\3c&H00000000&\shad0\fad(50,120)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H20&\bord2\3c&H00000000&\shad0\fad(50,120)}"
             "m 126 1268 l 300 1308 472 1288 648 1384 886 1462 "
             "m 854 1436 l 905 1472 846 1492"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _percentage_pulse(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H38&\bord0\shad0\fad(30,80)\t(0,180,\fscx128\fscy128)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H38&\bord0\shad0\fad(30,80)\t(0,180,\fscx128\fscy128)}"
             "m 920 245 b 980 245 1020 285 1020 345 b 1020 405 980 445 920 445 b 860 445 820 405 820 345 b 820 285 860 245 920 245"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _warning_pulse(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H34&\bord0\shad0\fad(30,80)\t(0,180,\fscx120\fscy120)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H34&\bord0\shad0\fad(30,80)\t(0,180,\fscx120\fscy120)}"
             "m 916 248 l 982 248 1018 314 982 380 916 380 880 314"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _question_glow(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H42&\bord0\shad0\fad(30,80)\t(0,160,\fscx124\fscy124)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H42&\bord0\shad0\fad(30,80)\t(0,160,\fscx124\fscy124)}"
             "m 126 236 b 178 236 214 272 214 324 b 214 376 178 412 126 412 b 74 412 38 376 38 324 b 38 272 74 236 126 236"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _comparison_divider(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         draw = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H28&\bord0\shad0\fad(40,100)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H28&\bord0\shad0\fad(40,100)}"
             "m 538 600 l 542 600 542 1500 538 1500"
         )
         return self._dialogue(start, end, "Clean", draw)
 
     def _rupee_badge(self, start, end, color):
+        # FIX: string concat instead of rf"{{...{color}...}}"
         bg = (
-            rf"{{\an7\pos(0,0)\p1\1c{color}\1a&H26&\bord0\shad0\fad(40,80)}}"
+            r"{\an7\pos(0,0)\p1\1c" + color + r"\1a&H26&\bord0\shad0\fad(40,80)}"
             "m 84 164 l 154 164 154 234 84 234"
         )
         label = (
