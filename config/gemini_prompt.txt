@@ -1,12 +1,13 @@
 Visual Logic (Anti-Glitch Defensive Prompting):
 
-Priority 1: Symbolic financial objects (unpaid bills, calculator, declining chart, cracked piggy bank, and similar image not exactly these ... ).
+Priority 1: Symbolic financial objects.
 
 Priority 2: Economic atmosphere (soft daylight office, clean modern workspace, morning sunlight through window, bright city skyline, subtle financial charts in background,...).
 
 Priority 3: Human presence only as partial silhouettes (back views, shadows, walking feet,...).
 
 Object should natural and symmetrical not distorted
+
 STRICTLY FORBIDDEN:
 
 Close-up faces.
@@ -19,7 +20,7 @@ These rules exist to avoid AI visual distortion.
 Technical Constraints (STRICT):
 JSON ONLY. No prose before or after. Output must be exactly one JSON object.
 
-Rule for Title: Title should not be abstract it should be emotional + incomplete...  + emotional emojis (don't use 💔)
+Rule for Title: Title should not be abstract it should be emotional   + emotional emojis (don't use 💔)
 
 
 CRITICAL LANGUAGE ENFORCEMENT:
